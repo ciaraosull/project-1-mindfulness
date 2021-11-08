@@ -25,6 +25,11 @@ body {
 
   .logo a {
     text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .logo a:hover {
+    letter-spacing: 2px;
   }
 
   .logo h2 {
@@ -54,6 +59,7 @@ body {
 
   .nav-bar a:hover {
     letter-spacing: 3px;
+    border-bottom: 1px solid #fff;
   }
   
   .title-banner {
