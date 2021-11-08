@@ -6,8 +6,9 @@ body {
 }
 
 .slider {
-    max-width: 1170px;
     margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   
   header {
@@ -38,7 +39,7 @@ body {
   }
   
   .nav-bar {
-    line-height: 70px;
+    line-height: 50px;
     float: right;
     font-size: 110%;
   }
@@ -58,7 +59,7 @@ body {
   }
 
   .nav-bar a:hover {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     border-bottom: 1px solid #fff;
   }
   
