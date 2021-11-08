@@ -33,14 +33,27 @@ body {
   }
   
   .nav-bar {
+    line-height: 70px;
     float: right;
-    line-height: 100px;
+    font-size: 110%;
   }
   
+  .nav-bar li {
+    float: left;
+    margin: 0 10px;
+    list-style-type: none;
+    margin-right: 30px;
+  }
+
   .nav-bar a {
     color: #fff;
-    margin: 0 10px;
     text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+
+  .nav-bar a:hover {
+    letter-spacing: 3px;
   }
   
   .title-banner {
