@@ -143,11 +143,10 @@ body {
   }
 
   .about {
-    background-color: green; 
-    padding-top: 30px;
+    background-color: rgba(49, 122, 156, 0.2);
     width: 33%;
+    height: 380px;
     display: inline-block;
-    margin-top: 10px;
    }
 
    img {
@@ -156,11 +155,12 @@ body {
    }
 
    .benefits {
-    background-color: red;
-    padding-top: 30px;
+    background-color: #add8e6;
     width: 33%;
     display: inline-block;
+    height: 380px;
   }
+  
 
   .instructions {
     background-color: #fff;
