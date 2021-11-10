@@ -97,6 +97,12 @@ body {
     mix-blend-mode: overlay;
     opacity: 0.4;
   }
+
+  .title-banner-text {
+    color: #fff;
+    text-shadow: 0 0 4px #262626;
+    z-index: 999;
+  }
   
   .title-banner-text h1{
     padding-top:15%;
@@ -104,11 +110,26 @@ body {
     font-size: 5em;
     letter-spacing: 5px;
     font-style: italic;
-    font-weight: 800%;
     line-height: 1.2em;
-    color: #fff;
-    text-shadow: 0 0 4px #262626;
+  }
+
+  .title-banner-text h3 {
+    font-size: 2em;
+    text-transform: capitalize;
+    padding-left: 25%;
+  }
+
+  .banner-text {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 33%;
+    font-size: 1.5em;
+    width: 275px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify;
     z-index: 999;
+    color: ##37474f;
   }
   
   
