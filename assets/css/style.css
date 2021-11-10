@@ -142,23 +142,24 @@ body {
     height: 1500px;
   }
 
-  .about {
+  .about-left {
     background-color: rgba(49, 122, 156, 0.2);
-    width: 33%;
+    width: 30%;
     height: 380px;
-    display: inline-block;
+    float: left;
    }
 
-   img {
-     width: 33%;
-     display: inline-block;
-   }
-
-   .benefits {
+   .benefits-right {
     background-color: #add8e6;
-    width: 33%;
-    display: inline-block;
+    width: 30%;
     height: 380px;
+    float: right;
+  }
+
+  .zen-stones-center {
+    width: 30%;
+    height: 380px;
+    margin: 0 auto;
   }
   
 
