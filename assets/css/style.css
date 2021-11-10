@@ -130,7 +130,7 @@ body {
     border-radius: 20px;
     text-align: justify;
     z-index: 999;
-    color: ##37474f;
+    color: #37474f;
   }
   
   
@@ -140,5 +140,30 @@ body {
     top: 600px;
     background: #ddd;
     height: 1500px;
-  
+  }
+
+  .about {
+   background-color: green; 
+   padding-top: 30px;
+   width: 33%;
+   float: left;
+  }
+
+  .benefits {
+    background-color: red;
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+  }
+
+  .center-quote {
+    background-color: yellow;
+    width: 33%;
+    margin: 0 auto;
+  }
+
+  .instructions {
+    background-color: #fff;
+    float: left;
+
   }
