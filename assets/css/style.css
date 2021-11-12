@@ -109,32 +109,40 @@
   }
   
   .content-area {
-    max-width: 100%;
     position: relative;
     top: 600px;
     background: #ddd;
     height: 1500px;
+    overflow: hidden;
   }
 
   .flex-container {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
+    border-radius: 20px;
   }
 
   .about-left {
     background-color: rgba(49, 122, 156, 0.2);
-    flex: 30%;
+    flex: 33%;
+    padding: 10px;
    }
 
    .zen-stones-center {
-    flex: 30%;
-    max-width: 100%;
-    height: auto;
+    flex: 33%;
+    padding: 0 10px;
+    background-color: red;
   }
 
    .benefits-right {
     background-color: rgba(49, 122, 156, 0.2);
-    flex: 30%;
+    flex: 33%;
+    padding: 10px;
+  }
+
+  .benefits-right li {
+    list-style-type: none;
   }
 
   @media (max-width: 800px) {
