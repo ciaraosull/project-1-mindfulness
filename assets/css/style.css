@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   border: none;
-  box-sizing: border-box;
 }
 
 body {
@@ -76,26 +75,25 @@ body {
     height: 100%;
     z-index: -1;
   }
-
-  .banner-text h1, h2 {
-    color: #fff;
-    text-shadow: 0 0 4px #262626;
-    z-index: 999;
-  }
   
   .banner-text h1 {
     padding-top: 15%;
     padding-left: 10%;
-    font-size: 8vmax;
-    letter-spacing: 5px;
+    font-size: 9vw;
     font-style: italic;
     line-height: 1.2em;
   }
 
   .banner-text h2 {
-    font-size: 2em;
-    text-transform: capitalize;
     padding-left: 10%;
+    font-size: 3vw;
+    text-transform: capitalize;
+  }
+
+  .banner-text h1, h2 {
+    color: #fff;
+    text-shadow: 0 0 4px #262626;
+    z-index: 999;
   }
 
   .banner-text p {
@@ -146,4 +144,7 @@ body {
     .flex-container, header {
       flex-direction: column;
     }
+    .banner-text h1 {
+      padding-top: 50%;
   }
+
