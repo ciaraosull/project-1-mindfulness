@@ -8,17 +8,12 @@
   font-family: "EB Garamond", serif;
 }
 
-body {
-    
-    
-}
-
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    background: #262626;
+    background: #455a64;
     width: 100%;
     z-index: 12;
     position: fixed;
@@ -138,7 +133,7 @@ body {
   }
 
    .benefits-right {
-    background-color: #add8e6;
+    background-color: rgba(49, 122, 156, 0.2);
     flex: 30%;
   }
 
