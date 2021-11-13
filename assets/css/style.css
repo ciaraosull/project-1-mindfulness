@@ -112,7 +112,6 @@
     position: relative;
     top: 560px;
     background: #ddd;
-    height: 2000px;
     padding-top: 10px;
   }
 
@@ -211,15 +210,23 @@
     background: #424952;;
   }
 
-  @media (max-width: 800px) {
-    .flex-container, header {
+  @media (max-width: 900px) {
+    .flex-container, header, .about-container {
       flex-direction: column;
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     .banner-text {
       font-size: 2vw;
       margin-left: 0;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .about-text, .about-lotus-image {
+      width: 100%;
+      margin-left: 0%;
+
     }
   }
