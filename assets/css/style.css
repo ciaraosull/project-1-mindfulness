@@ -6,6 +6,7 @@
   border: none;
   box-sizing: border-box;
   font-family: "EB Garamond", serif;
+  box-sizing: border-box;
 }
 
   header {
@@ -62,7 +63,6 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-
   }
   
   video {
