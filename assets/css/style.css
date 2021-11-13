@@ -138,6 +138,22 @@
     padding: 20px;
   }
 
+  .practice {
+    background-color: yellow;
+  }
+
+  .about-us {
+    background-color: rebeccapurple;
+  }
+
+  .sign-up {
+    background-color: white;
+  }
+
+  footer {
+    background-color: turquoise;
+  }
+
   @media (max-width: 800px) {
     .flex-container, header {
       flex-direction: column;
