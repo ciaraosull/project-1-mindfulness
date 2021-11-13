@@ -116,6 +116,10 @@
     justify-content: center;
   }
 
+  .about {
+    
+  }
+
   .about-container, .practice-container {
     width: 80%;
     display: flex;
@@ -123,7 +127,6 @@
   }
 
   .about-text, .practice-text {
-    width: 45%;
     display: flex;
     flex-direction: column;
     background-color: rgba(66,73, 82);
@@ -132,7 +135,11 @@
     padding: 20px;
     color: #fff;
     z-index: 20;
+  }
+
+  .about-text {
     margin-left: 50px;
+    width: 45%;
   }
 
   .about-text h2, .practice-text h2 {
@@ -204,6 +211,10 @@
     align-content: center;
   }
 
+  .practice-text {
+    margin-right: 50px;
+  }
+
   .practice-text span {
     font-style: italic;
     font-weight: bold;
@@ -218,7 +229,7 @@
   }
 
   @media (max-width: 900px) {
-    .benefits-container, header, .about-container {
+    .benefits-container, header, .about-container, .practice-container {
       flex-direction: column;
     }
   }
@@ -231,7 +242,7 @@
   }
 
   @media (max-width: 900px) {
-    .about-text, .about-lotus-image {
+    .about-text, .about-lotus-image, .still-lake-image {
       width: 100%;
       margin-left: 0%;
     }
