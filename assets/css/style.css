@@ -99,15 +99,6 @@
     text-transform: capitalize;
   }
 
-  .banner-text p {
-    font-size: 1.5em;
-    margin-left: 225px;
-    padding: 10px;
-    max-width: 500px;
-    background-color: rgba(66,73, 82, .3);
-    border-radius: 20px;
-  }
-  
   .content-area {
     position: relative;
     top: 560px;
@@ -157,6 +148,7 @@
 
   .about-text span {
     font-family: 'Irish Grover', cursive;
+    text-shadow: 0 0 4px #262626;
   }
 
   .about-lotus-image {
@@ -227,6 +219,5 @@
     .about-text, .about-lotus-image {
       width: 100%;
       margin-left: 0%;
-
     }
   }
