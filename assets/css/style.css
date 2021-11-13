@@ -125,7 +125,7 @@
     flex: 33%;
     padding: 10px;
     border-radius: 20px;
-    margin: 15px;
+    margin: 20px;
    }
 
    .benefits-right li {
@@ -134,9 +134,8 @@
 
    .zen-stones-center {
     flex: 33%;
-    padding: 0 10px;
     object-fit: fill;
-    padding: 10px;
+    padding: 20px;
   }
 
   @media (max-width: 800px) {
