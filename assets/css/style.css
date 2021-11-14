@@ -126,7 +126,7 @@
   .about-text, .practice-text, .mindfulness-text {
     display: flex;
     flex-direction: column;
-    background-color: rgb(114, 152, 201);
+    background-color: #424952;
     border-radius: 20px;
     min-height: 150px;
     width: 45%;
