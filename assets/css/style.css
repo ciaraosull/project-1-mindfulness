@@ -133,11 +133,10 @@
     padding: 20px;
     color: #fff;
     z-index: 20;
+    margin-left: 50px;
   }
 
-  .about-text {
-    margin-left: 100px;
-  }
+  
 
   .about-text h2, .practice-text h2, .mindfulness-text h2 {
     font-size: 40px;
