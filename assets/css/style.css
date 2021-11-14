@@ -113,7 +113,7 @@
     overflow: hidden;
   }
 
-  .about, .practice, .learn {
+  .about, .learn, .benefits, .practice {
     background-color: #fff;
     margin: 0px 40px 40px 40px;
     padding: 10px;
@@ -123,7 +123,7 @@
     justify-content: center;
   }
 
-  .about-text, .practice-text, .mindfulness-text {
+  .about-text, .mindfulness-text, .benefits-text, .practice-text {
     display: flex;
     flex-direction: column;
     background-color: #424952;
@@ -136,15 +136,13 @@
     margin-left: 50px;
   }
 
-  
-
-  .about-text h2, .practice-text h2, .mindfulness-text h2 {
+  .about-text h2, .benefits-text h2, .mindfulness-text h2, .practice-text h2 {
     font-size: 40px;
     line-height: 1.5em;
     text-shadow: 0 0 4px #262626;
   }
 
-  .about-text p, .practice-text p, .mindfulness-text p {
+  .about-text p, .mindfulness-text p, .practice-text p {
     font-size: 20px;
     text-align: justify;
   }
@@ -166,34 +164,6 @@
   #mindfulness-text-p2 {
     font-weight: bold;
     text-align: center;
-  }
-
-  .benefits-container {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .about-left, .benefits-right {
-    background-color: rgba(49, 122, 156, 0.2);
-    flex: 33%;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 20px;
-   }
-
-   .about-left h3 {
-     text-align: center;
-     padding: 15px;
-   }
-
-   .benefits-right li {
-    list-style-type: none;
-  }
-
-   .zen-stones-center {
-    flex: 33%;
-    object-fit: fill;
-    padding: 20px;
   }
 
   .still-lake-image {
@@ -224,7 +194,7 @@
   }
 
   @media (max-width: 900px) {
-    .benefits-container, header, .main-content-container {
+    header, .main-content-container {
       flex-direction: column;
     }
   }
@@ -237,7 +207,7 @@
   }
 
   @media (max-width: 900px) {
-    .about-text, .about-lotus-image, .practice-text, .still-lake-image, .mindfulness-text {
+    .about-text, .about-lotus-image, .mindfulness-text, .benefits-text, .practice-text, .still-lake-image,  {
       width: 100%;
       margin-left: 0%;
       margin-right: 0%;
