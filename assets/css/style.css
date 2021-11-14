@@ -106,6 +106,12 @@
     padding-top: 10px;
   }
 
+  .main-content-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+
   .about, .practice {
     background-color: #fff;
     margin: 40px;
@@ -114,12 +120,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .about-container, .practice-container {
-    width: 80%;
-    display: flex;
-    align-items: center;
   }
 
   .about-text, .practice-text {
@@ -220,7 +220,7 @@
   }
 
   @media (max-width: 900px) {
-    .benefits-container, header, .about-container, .practice-container {
+    .benefits-container, header, .main-content-container {
       flex-direction: column;
     }
   }
