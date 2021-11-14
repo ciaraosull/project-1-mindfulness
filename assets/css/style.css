@@ -113,7 +113,7 @@
     overflow: hidden;
   }
 
-  .about, .practice {
+  .about, .practice, .learn {
     background-color: #fff;
     margin: 0px 40px 40px 40px;
     padding: 10px;
@@ -123,7 +123,7 @@
     justify-content: center;
   }
 
-  .about-text, .practice-text {
+  .about-text, .practice-text, .mindfulness-text {
     display: flex;
     flex-direction: column;
     background-color: rgba(66,73, 82);
@@ -139,13 +139,13 @@
     margin-left: 100px;
   }
 
-  .about-text h2, .practice-text h2 {
+  .about-text h2, .practice-text h2, .mindfulness-text h2 {
     font-size: 40px;
     line-height: 1.5em;
     text-shadow: 0 0 4px #262626;
   }
 
-  .about-text p, .practice-text p {
+  .about-text p, .practice-text p, .mindfulness-text p {
     font-size: 20px;
     text-align: justify;
   }
@@ -234,7 +234,7 @@
   }
 
   @media (max-width: 900px) {
-    .about-text, .about-lotus-image, .still-lake-image, .practice-text {
+    .about-text, .about-lotus-image, .still-lake-image, .practice-text, .mindfulness-text {
       width: 100%;
       margin-left: 0%;
     }
