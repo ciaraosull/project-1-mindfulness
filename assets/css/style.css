@@ -126,7 +126,7 @@
   .about-text, .practice-text, .mindfulness-text {
     display: flex;
     flex-direction: column;
-    background-color: rgba(66,73, 82);
+    background-color: rgb(114, 152, 201);
     border-radius: 20px;
     min-height: 150px;
     width: 45%;
@@ -197,7 +197,6 @@
     height: 300px;
     background: url("../images/still-lake-image.jpg") no-repeat center / cover;
     margin-right: -100px;
-    margin-left: 100px;
     border-radius: 300px;
     z-index: 1;
   }
@@ -234,8 +233,9 @@
   }
 
   @media (max-width: 900px) {
-    .about-text, .about-lotus-image, .still-lake-image, .practice-text, .mindfulness-text {
+    .about-text, .about-lotus-image, .practice-text, .still-lake-image, .mindfulness-text {
       width: 100%;
       margin-left: 0%;
+      margin-right: 0%;
     }
   }
