@@ -163,6 +163,11 @@
     z-index: 1;
   }
 
+  #mindfulness-text-p2 {
+    font-weight: bold;
+    text-align: center;
+  }
+
   .benefits-container {
     display: flex;
     flex-direction: row;
