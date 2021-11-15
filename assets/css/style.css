@@ -107,7 +107,6 @@
   }
 
   .main-content-container {
-    
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -120,11 +119,7 @@
     justify-content: center;
   }
 
-  #about, #learn, #benefits, #practice {
-    
-  }
-
-  #about-text, #mindfulness-text, #benefits-text, #practice-text {
+  .container-text {
     display: flex;
     flex-direction: column;
     background-color: #424952;
@@ -136,11 +131,11 @@
     margin-left: 50px;
   }
 
-  #about-text h2, #benefits-text h2, #mindfulness-text h2, #practice-text h2 {
+  .container-text h2 {
     text-shadow: 0 0 4px #262626;
   }
 
-  #about-text p, #mindfulness-text p, #practice-text p {
+  .container-text p {
     text-align: justify;
   }
 
@@ -149,20 +144,22 @@
     text-shadow: 0 0 4px #262626;
   }
 
-  .about-lotus-image {
-    width: 50%;
+  #about-lotus-image {
+    width: 40%;
     height: 300px;
     background: url("../images/lotus-flower.jpg") no-repeat center / cover;
     margin-left: -100px;
+    margin-right: 50px;
     border-radius: 300px;
     z-index: 1;
   }
 
-  .mindfulness-image {
-    width: 60%;
+  #mindfulness-image {
+    width: 40%;
     height: 300px;
     background: url("../images/mindfulness-image.jpg") no-repeat center / cover;
-    margin-right: -100px;
+    margin-right: -150px;
+    margin-left: 50px;
     border-radius: 300px;
     z-index: 1;
   }
@@ -172,11 +169,12 @@
     text-align: center;
   }
 
-  .zen-stones-image {
-    width: 60%;
+  #zen-stones-image {
+    width: 40%;
     height: 300px;
     background: url("../images/zen-stones.jpg") no-repeat center / cover;
     margin-left: -100px;
+    margin-right: 50px;
     border-radius: 300px;
     z-index: 1;
   }
@@ -185,11 +183,12 @@
     list-style: none;
   }
 
-  .still-lake-image {
-    width: 60%;
+  #still-lake-image {
+    width: 40%;
     height: 300px;
     background: url("../images/still-lake-image.jpg") no-repeat center / cover;
-    margin-right: -100px;
+    margin-right: -150px;
+    margin-left: 50px;
     border-radius: 300px;
     z-index: 1;
   }
@@ -197,6 +196,10 @@
    audio {
     margin: 20px;
     align-content: center;
+  }
+
+  #practice-text, #mindfulness-text {
+    margin-right: 50px;
   }
 
   #practice-text span {
@@ -226,9 +229,10 @@
   }
 
   @media (max-width: 900px) {
-    #about-text, .about-lotus-image, #mindfulness-text, .mindfulness-image, #benefits-text, #practice-text, .still-lake-image, .zen-stones-image {
+    .container-text, #about-lotus-image, #mindfulness-image, #still-lake-image, #zen-stones-image, #mindfulness-text, #practice-text {
       width: 100%;
       margin-left: 0%;
       margin-right: 0%;
     }
   }
+
