@@ -107,13 +107,10 @@
   }
 
   .main-content-container {
-    width: 80%;
+    
     display: flex;
     align-items: center;
     overflow: hidden;
-  }
-
-  .about, .learn, .benefits, .practice {
     background-color: #fff;
     margin: 0px 40px 40px 40px;
     padding: 10px;
@@ -123,7 +120,11 @@
     justify-content: center;
   }
 
-  .about-text, .mindfulness-text, .benefits-text, .practice-text {
+  #about, #learn, #benefits, #practice {
+    
+  }
+
+  #about-text, #mindfulness-text, #benefits-text, #practice-text {
     display: flex;
     flex-direction: column;
     background-color: #424952;
@@ -135,15 +136,15 @@
     margin-left: 50px;
   }
 
-  .about-text h2, .benefits-text h2, .mindfulness-text h2, .practice-text h2 {
+  #about-text h2, #benefits-text h2, #mindfulness-text h2, #practice-text h2 {
     text-shadow: 0 0 4px #262626;
   }
 
-  .about-text p, .mindfulness-text p, .practice-text p {
+  #about-text p, #mindfulness-text p, #practice-text p {
     text-align: justify;
   }
 
-  .about-text span {
+  #about-text span {
     font-family: 'Irish Grover', cursive;
     text-shadow: 0 0 4px #262626;
   }
@@ -180,7 +181,7 @@
     z-index: 1;
   }
 
-  .benefits-text ul {
+  #benefits-text ul {
     list-style: none;
   }
 
@@ -198,7 +199,7 @@
     align-content: center;
   }
 
-  .practice-text span {
+  #practice-text span {
     font-style: italic;
     font-weight: bold;
   }
@@ -225,7 +226,7 @@
   }
 
   @media (max-width: 900px) {
-    .about-text, .about-lotus-image, .mindfulness-text, .mindfulness-image, .benefits-text, .practice-text, .still-lake-image, .zen-stones-image {
+    #about-text, .about-lotus-image, #mindfulness-text, .mindfulness-image, #benefits-text, #practice-text, .still-lake-image, .zen-stones-image {
       width: 100%;
       margin-left: 0%;
       margin-right: 0%;
