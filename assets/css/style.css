@@ -144,6 +144,29 @@
     text-shadow: 0 0 4px #262626;
   }
 
+  #mindfulness-text-p2 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #benefits-text ul {
+    list-style: none;
+  }
+
+  audio {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  #practice-text, #mindfulness-text {
+    margin-right: 50px;
+  }
+
+  #practice-text span {
+    font-style: italic;
+    font-weight: bold;
+  }
+
   #about-lotus-image {
     width: 40%;
     height: 300px;
@@ -163,12 +186,6 @@
     border-radius: 300px;
     z-index: 1;
   }
-
-  #mindfulness-text-p2 {
-    font-weight: bold;
-    text-align: center;
-  }
-
   #zen-stones-image {
     width: 40%;
     height: 300px;
@@ -179,10 +196,6 @@
     z-index: 1;
   }
 
-  #benefits-text ul {
-    list-style: none;
-  }
-
   #still-lake-image {
     width: 40%;
     height: 300px;
@@ -191,20 +204,6 @@
     margin-left: 50px;
     border-radius: 300px;
     z-index: 1;
-  }
-
-   audio {
-    margin: 20px;
-    align-content: center;
-  }
-
-  #practice-text, #mindfulness-text {
-    margin-right: 50px;
-  }
-
-  #practice-text span {
-    font-style: italic;
-    font-weight: bold;
   }
 
   .sign-up {
