@@ -76,7 +76,6 @@
   }
 
   .banner-text {
-    margin-top: 20vh;
     padding: 50px;
     color: #fff;
     position: relative;
@@ -96,6 +95,10 @@
     font-size: 2.5em;
     line-height: 1em;
     text-transform: capitalize;
+  }
+
+  .banner-text a {
+    
   }
 
   .content-area {
