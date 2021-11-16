@@ -118,10 +118,7 @@
     letter-spacing: 2px;
     color: #424952;
     background-color: #fff;
-    
   }
-
-
 
   .content-area {
     width: 100%;
@@ -232,12 +229,14 @@
     z-index: 1;
   }
 
-  .sign-up {
+  .sign-up-container {
     background-color: rgba(49, 122, 156, 0.2);
+    margin: 0px 40px 40px 40px;
   }
 
   footer {
-    background: #424952;;
+    background: #424952;
+    color: #fff;
   }
 
   @media (max-width: 900px) {
