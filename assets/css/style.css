@@ -226,9 +226,16 @@
     z-index: 1;
   }
 
-  .sign-up-container {
-    background-color: rgba(49, 122, 156, 0.2);
-    margin: 0px 40px 40px 40px;
+  .form-container {
+    margin: 20px 40px 40px 40px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: red;
+  }
+
+  .form-text {
+    color: #fff;
+
   }
 
   footer {
