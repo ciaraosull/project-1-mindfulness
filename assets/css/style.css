@@ -78,9 +78,6 @@
   .banner-text {
     width: 60%;
     margin: 0 0 50px 50px;
-    color: #fff;
-    text-shadow: 0 0 4px #262626;
-    background-color: red;
     flex-direction: column;
   }
 
@@ -89,6 +86,8 @@
     line-height: 1.5em;
     font-style: italic;
     text-align: start;
+    color: #fff;
+    text-shadow: 0 0 20px #262626;
   }
 
   .banner-text h2 {
@@ -96,10 +95,31 @@
     font-size: 2.5em;
     line-height: 1em;
     text-transform: capitalize;
+    color: #fff;
+    text-shadow: 0 0 20px #262626;
   }
 
   #explore-link {
     text-align: end;
+    width: 80%;
+  }
+
+  #explore-link a {
+    color: #fff;
+    background-color: #424952;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px;
+    line-height: 2.5em;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #explore-link a:hover {
+    letter-spacing: 2px;
+    color: #424952;
+    background-color: #fff;
+    
   }
 
 
