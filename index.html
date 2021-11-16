@@ -112,15 +112,29 @@
             </section>
             
             <section id="sign-up">
-                <div class="sign-up-container">
+                <form method="POST" action="https://formdump.codeinstitute.net/">
                     <h2>Sign Up to Our Ezine</h2>
                     <p>Our Ezines are emailed monthly and are designed to keep you up to date with all the latest mindfulness research and news.</p><br>
                     <p>Also included every month are audio and video mindfulness practice sessions.</p><br>
-                    <p>Complete the form below to sign up.</p>
-                    <p>If you wish to discontinue, just click unsuscribe in the email we send each month.</p>
-                </div>
+                    <h3>Complete the form below to sign up.</h3>
+                    
+                    <label for="name">First & Last Name</label>
+                    <input id="name" type="text" name="full-name" required>
+
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email_address" required>
+                    
+                    <p>Would you like to be contacted about future online Mindfulness Groups?</p>
+                    <label for="yes">Yes</label>
+                    <input id="yes" type="radio" name="yes-contact" value="yes" required>
+
+                    <label for="no">No</label>
+                    <input id="no" type="radio" name="no-contact" value="no">
+                    
+                    <input type="submit" value="Sign Me Up">
+                </form>
                 
-                <form></form>
+                <p>If you wish to discontinue, just click unsuscribe in the email we send each month.</p>
             
             </section>
             
