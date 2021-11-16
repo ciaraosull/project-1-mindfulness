@@ -125,13 +125,10 @@
     position: relative;
     top: 660px;
     background: #ddd;
-    padding-top: 70px;
+    padding-top: 20px;
   }
 
   .main-content-container {
-    display: flex;
-    align-items: center;
-    overflow: hidden;
     background-color: #fff;
     margin: 20px 40px 40px 40px;
     padding: 40px;
