@@ -230,12 +230,17 @@
     margin: 20px 40px 40px 40px;
     padding: 40px;
     border-radius: 20px;
-    background-color: red;
+    background: url("../images/singing-bowl.jpg") no-repeat center / cover;
+  
   }
 
   .form-text {
     color: #fff;
-
+    width: 60%;
+    margin-left: 40px;
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 40px;
+    padding: 20px;
   }
 
   footer {
