@@ -238,10 +238,49 @@
     color: #fff;
     width: 60%;
     margin-left: 40px;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.8);
     border-radius: 40px;
     padding: 20px;
   }
+
+  .form-text h2, h3 {
+    padding-bottom: 1em;
+    text-transform: capitalize;
+  }
+
+  .form-input {
+    background: transparent;
+    color: #fafafa;
+    width: 70%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    display: block;
+  }
+
+  .form-input:hover {
+    background-color: #aa1919;
+}
+
+.sign-up-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 10px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #aa1919;;
+  color: #fafafa;
+  display: block;
+  font-weight: bold;
+}
+
+.sign-up-button:hover {
+    letter-spacing: 2px;
+    color: #aa1919;
+    background-color: #fafafa;
+  }
+}
 
   footer {
     background: #424952;
