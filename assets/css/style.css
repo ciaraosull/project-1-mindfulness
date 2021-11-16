@@ -76,30 +76,33 @@
   }
 
   .banner-text {
-    padding: 50px;
+    width: 60%;
+    margin: 0 0 50px 50px;
     color: #fff;
-    position: relative;
-    z-index: 99;
     text-shadow: 0 0 4px #262626;
+    background-color: red;
+    flex-direction: column;
   }
 
   .banner-text h1 {
     font-size: 4.5em;
     line-height: 1.5em;
     font-style: italic;
+    text-align: start;
   }
 
   .banner-text h2 {
-    margin-left: 75px;
-    padding-bottom: 10px;
+    text-align: center;
     font-size: 2.5em;
     line-height: 1em;
     text-transform: capitalize;
   }
 
-  .banner-text a {
-    
+  #explore-link {
+    text-align: end;
   }
+
+
 
   .content-area {
     width: 100%;
