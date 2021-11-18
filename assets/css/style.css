@@ -290,6 +290,7 @@
 
   .contact-us-container {
     background-color: blue;
+    width: 100%;
     color: #fafafa;
     display: flex;
     justify-content: space-between;
@@ -297,19 +298,44 @@
 
   .contact-us-info {
     background-color: green;
+    flex: 40%;
   }
 
-  .follow-us-info {
+  .contact-us-info a, .app-info a {
+    text-decoration: none;
+    color: #fafafa;
+  }
+
+  .contact-us-info a:hover, .app-info a:hover {
+    letter-spacing: 2px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .app-info {
     background-color: red;
+    flex: 40%;
+  }
+
+  .app-info p {
+    display: inline-flex;
+    padding-left: 10px;
+    
   }
 
   .copyright {
     background-color: yellow;
+    flex: 20%;
+    align-self: flex-end;
+  }
+
+  i {
+    padding-right: 10px;
   }
 
   .copyright p {
     font-style: italic;
-    padding-top: 20px;
+    padding-left: 50px;
+
   }
 
 
