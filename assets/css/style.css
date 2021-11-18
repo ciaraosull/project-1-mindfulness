@@ -280,12 +280,18 @@
     color: #aa1919;
     background-color: #fafafa;
   }
-}
 
   footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
     background: #424952;
-    color: #fff;
+    width: 100%;
   }
+
+
+
 
   @media (max-width: 900px) {
     header, .main-content-container {
