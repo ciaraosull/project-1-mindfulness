@@ -304,12 +304,12 @@
     padding-left: 40px;
   }
 
-  .contact-us-info a, .app-info a {
+  .contact-us-info a, .app-info a, .copyright a {
     text-decoration: none;
     color: #fafafa;
   }
 
-  .contact-us-info a:hover, .app-info a:hover {
+  .contact-us-info a:hover, .app-info a:hover, .copyright a:hover {
     letter-spacing: 2px;
     color: #aa1919;
     font-weight: bold;
@@ -330,15 +330,15 @@
     align-self: flex-end;
   }
 
+  .copyright p {
+    font-style: italic;
+    padding: 0 0 20px 50px;
+  }
+
   i {
     padding-right: 10px;
   }
 
-  .copyright p {
-    font-style: italic;
-    padding-left: 50px;
-
-  }
 
 
 
