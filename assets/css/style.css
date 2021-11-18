@@ -289,7 +289,6 @@
 
 
   .contact-us-container {
-    background-color: blue;
     width: 100%;
     color: #fafafa;
     display: flex;
@@ -297,8 +296,12 @@
   }
 
   .contact-us-info {
-    background-color: green;
     flex: 40%;
+    padding: 20px;
+  }
+
+  .contact-us-info p {
+    padding-left: 40px;
   }
 
   .contact-us-info a, .app-info a {
@@ -308,22 +311,21 @@
 
   .contact-us-info a:hover, .app-info a:hover {
     letter-spacing: 2px;
-    border-bottom: 1px solid #fff;
+    color: #aa1919;
+    font-weight: bold;
   }
 
   .app-info {
-    background-color: red;
     flex: 40%;
+    padding: 20px;
   }
 
   .app-info p {
     display: inline-flex;
-    padding-left: 10px;
-    
+    padding-left: 40px;
   }
 
   .copyright {
-    background-color: yellow;
     flex: 20%;
     align-self: flex-end;
   }
