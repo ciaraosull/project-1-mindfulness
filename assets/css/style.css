@@ -293,6 +293,7 @@
     background-color: blue;
     color: #fafafa;
     display: flex;
+    justify-content: space-between;
   }
 
   .contact-us-info {
@@ -301,7 +302,6 @@
 
   .follow-us-info {
     background-color: red;
-    display: flex;
   }
 
   .copyright {
