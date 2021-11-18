@@ -282,12 +282,30 @@
   }
 
   footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 30px;
     background: #424952;
     width: 100%;
+    
+  }
+
+
+  .contact-us-container {
+    background-color: blue;
+    color: #fafafa;
+    display: flex;
+  }
+
+  .contact-us-info {
+    background-color: green;
+  }
+
+  .follow-us-info {
+    background-color: red;
+    display: flex;
+  }
+
+  .copyright {
+    background-color: yellow;
   }
 
 
