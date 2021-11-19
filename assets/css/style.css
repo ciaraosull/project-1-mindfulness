@@ -159,7 +159,7 @@
     text-align: justify;
   }
 
-  .about-anchor {
+  .about-anchor, .sign-up-anchor {
     height: 65px;
     margin-top: 65px;
   }
