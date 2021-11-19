@@ -355,15 +355,10 @@
   }
 
   @media (max-width: 800px) {
-    .banner {
-      overflow: hidden;
-    }
-  }
-
-  @media (max-width: 800px) {
     video {
       width: 100vw;
       left: 0;
+      margin-top: 0;
     }
   }
 
