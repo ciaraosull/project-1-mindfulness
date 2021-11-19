@@ -340,23 +340,29 @@
   }
 
 
-
-
-
-  @media (max-width: 900px) {
+  @media (max-width: 700px) {
     header, .main-content-container {
       flex-direction: column;
+      padding: 0;
     }
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 700px) {
+    .nav-bar {
+      font-size: 3vw;
+    }
+  }
+
+
+
+  @media (max-width: 700px) {
     .banner-text {
       font-size: 2vw;
       margin-left: 0;
     }
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 700px) {
     .container-text, #about-lotus-image, #mindfulness-image, #still-lake-image, #zen-stones-image, #mindfulness-text, #practice-text {
       width: 100%;
       margin-left: 0%;
