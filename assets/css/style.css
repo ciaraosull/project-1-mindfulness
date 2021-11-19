@@ -296,7 +296,7 @@
   }
 
   .contact-us-info {
-    flex: 40%;
+    flex: 35%;
     padding: 20px;
   }
 
@@ -316,7 +316,7 @@
   }
 
   .app-info {
-    flex: 40%;
+    flex: 35%;
     padding: 20px;
   }
 
@@ -326,7 +326,7 @@
   }
 
   .copyright {
-    flex: 20%;
+    flex: 30%;
     align-self: flex-end;
   }
 
