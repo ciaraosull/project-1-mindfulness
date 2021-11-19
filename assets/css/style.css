@@ -93,7 +93,6 @@
   .banner-text h2 {
     text-align: center;
     font-size: 2.5em;
-    line-height: 1em;
     text-transform: capitalize;
     color: #fff;
     text-shadow: 0 0 20px #262626;
@@ -102,6 +101,7 @@
   #explore-link {
     text-align: end;
     width: 80%;
+    margin-top: 10px;
   }
 
   #explore-link a {
