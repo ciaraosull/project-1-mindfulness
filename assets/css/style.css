@@ -282,9 +282,9 @@
   }
 
   footer {
+    width: 100%;
     padding: 10px 30px;
     background: #424952;
-    width: 100%;
   }
 
 
@@ -310,7 +310,7 @@
   }
 
   .contact-us-info a:hover, .app-info a:hover, .copyright a:hover {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #aa1919;
     font-weight: bold;
   }
@@ -332,7 +332,7 @@
 
   .copyright p {
     font-style: italic;
-    padding: 0 0 20px 50px;
+    padding: 0 0 20px 30px;
   }
 
   i {
