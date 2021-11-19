@@ -159,6 +159,11 @@
     text-align: justify;
   }
 
+  .about-anchor {
+    height: 65px;
+    margin-top: 65px;
+  }
+
   #about-text span {
     font-family: 'Irish Grover', cursive;
     text-shadow: 0 0 4px #262626;
@@ -383,4 +388,14 @@
       margin-right: 0%;
     }
   }
+
+  @media (max-width: 800px) {
+    #about-lotus-image, #mindfulness-image, #still-lake-image, #zen-stones-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    }
+  }
+  
+
 
