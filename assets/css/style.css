@@ -145,7 +145,6 @@
     border-radius: 20px;
     width: 50%;
     padding: 20px;
-    
     color: #fff;
     z-index: 20;
     margin-left: 50px;
@@ -190,6 +189,10 @@
   #practice-text span {
     font-style: italic;
     font-weight: bold;
+  }
+
+  audio {
+    width: 100%;
   }
 
   #about-lotus-image {
