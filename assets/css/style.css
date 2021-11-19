@@ -378,6 +378,7 @@
     .main-content-container {
       flex-direction: column;
       padding: 0;
+      background-color: #424952;;
     }
   }
 
@@ -394,6 +395,8 @@
     width: 200px;
     height: 200px;
     border-radius: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     }
   }
   
