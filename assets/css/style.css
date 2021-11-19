@@ -160,7 +160,8 @@
   }
 
   .about-anchor, .sign-up-anchor {
-    margin-top: 65px;
+    margin-top: -65px;
+    height: 65px;
   }
 
   #about-text span {
