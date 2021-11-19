@@ -370,7 +370,6 @@
     }
   }
 
-
   @media (max-width: 800px) {
     .banner-text {
       font-size: 2vw;
@@ -402,6 +401,12 @@
     margin-bottom: 10px;
     }
   }
-  
+
+  @media (max-width: 800px) {
+    .form-text, .form-input {
+    width: 100%;
+    margin: 0 auto;
+    }
+  }
 
 
