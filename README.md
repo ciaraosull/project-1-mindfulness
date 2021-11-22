@@ -9,7 +9,7 @@
 <br />
 
 ## Features
-1. Header
+1. **Header**
 
     The header is puposly fixed to the top of the screen.  As this website contains one page with many sections, this fixed header design, is useful to the user to navigate with ease without having to constantly scroll up and down.  The colour choice of dark gray for background and white for the font was chosen to contrast each other for reading accessibility.  
 
@@ -30,17 +30,17 @@
         * The navigation links, when hovered over, respond by expanding slightly to inform the user that it is interactive.  A white underline also appears under the word that has been clicked to inform the user that they are currently on that section.
 
 
-2.  Landing Page
+2. **Landing Page**
 
-3. About Us Section
+3. **About Us Section**
 
-4. Learn Section
+4. **Learn Section**
 
-5. Practice Section
+5. **Practice Section**
 
-6.  Sign Up Section
+6.  **Sign Up Section**
 
-7.  Contact Us Section
+7.  **Contact Us Section**
 
 <br>
 
