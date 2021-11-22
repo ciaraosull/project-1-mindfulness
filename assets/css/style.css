@@ -123,7 +123,7 @@
   .content-area {
     width: 100%;
     position: relative;
-    top: 800px;
+    top: 1000px;
     background: #ddd;
     padding-top: 20px;
   }
@@ -408,6 +408,18 @@
     margin: 0 auto;
     }
   }
+
+  @media (min-width: 1280px) {
+    .content-area {
+      height: 1280px
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .content-area {
+      height: 1600px
+    }
+
 
 
 
