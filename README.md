@@ -32,6 +32,21 @@
 
 2. **Landing Page**
 
+    * A video was carefully chosen as a background image to make the landing page stand out from other websites. 
+
+    * This specific video was chosen as the movement is only in the top of the video and slightly blurred so as not to distract the user too much while they are reading.
+
+    * The video was also chosen as it ilicits a calming effect and compliments the theme of the website.
+
+    * The video is fixed into position so that it disapppears as the user continues to the main content so that it does not become too distracting as the amount of text to read increases.
+
+     * The landing page also contains the title of the website and its subtitle.  A white font with a drop gray shadow was used for contrast for reading accessibility and consistancy with colours used in the header.
+    
+    * The landing page was designed not to show any hint of content below to allow the background video to have the effect of calm and the landing page to be decluttered for the user before they continued with the site.  Because of this an explore button linked to the first section, called About Us, was added.  This explore button's aim is to invite the user to interact and encourage them to continue on reading.  The user can also scroll but the explore button adds an extra feature incase the instinct to scroll does not happen.
+
+    * The explore button letters are white on a gray background, for not only contrast for reading accessibilty but also keeping consistant with the main colours chsoen thorughout the website.  The letters also expand when hovered over and the colours of white text on gray back ground alternate to gray letters on whote background to inform the user that the button is interactive.
+
+
 3. **About Us Section**
 
 4. **Learn Section**
