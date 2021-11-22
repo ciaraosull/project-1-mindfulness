@@ -11,7 +11,7 @@
 ## Features
 1. **Header**
 
-    The header is puposly fixed to the top of the screen.  As this website contains one page with many sections, this fixed header design, is useful to the user to navigate with ease without having to constantly scroll up and down.  The colour choice of dark gray for background and white for the font was chosen to contrast each other for reading accessibility.  
+    The header is intentionally fixed to the top of the screen.  As this website contains one page with many sections, this fixed header design, is useful to the user to navigate with ease without having to constantly scroll up and down.  The colour choice of dark gray for background and white for the font was chosen to contrast each other for reading accessibility.  
 
     * Logo
         * The header contains the logo on the top left for larger screens and is adjusted to top center for smaller screens for responsiveness.  
@@ -25,16 +25,16 @@
     * Navigation Bar
         * The header also contains the navigtion bar.  This is conventionally located on the top right for larger screens and is adjusted to center, under the logo, for smaller screens to aid responsiveness.
         
-        * The navigation bar contains key words that link to each section of the website.  Again this is designed to for ease for the user to navigate instantly without having to scroll.
+        * The navigation bar contains key words that link to each section of the website.  Again this is designed to for ease so the user can navigate instantly without having to scroll, if they wish.
 
-        * The navigation links, when hovered over, respond by expanding slightly to inform the user that it is interactive.  A white underline also appears under the word that has been clicked to inform the user that they are currently on that section.
+        * The navigation links, when hovered over, respond by expanding slightly to inform the user that it is interactive.  A white line also appears under the word that has been clicked to inform the user that they are currently on that section.
 
 
 2. **Landing Page**
 
     * A video was carefully chosen as a background image to make the landing page stand out from other websites. 
 
-    * This specific video was chosen as the movement is only in the top of the video and slightly blurred so as not to distract the user too much while they are reading.
+    * This specific video was chosen as the movement is only in the top of the video and slightly blurred so as not to distract the user too much while they are reading.  The video is on loop and muted so that it is not interactive and stays as a background feature for the user.
 
     * The video was also chosen as it ilicits a calming effect and compliments the theme of the website.
 
@@ -42,9 +42,9 @@
 
      * The landing page also contains the title of the website and its subtitle.  A white font with a drop gray shadow was used for contrast for reading accessibility and consistancy with colours used in the header.
     
-    * The landing page was designed not to show any hint of content below to allow the background video to have the effect of calm and the landing page to be decluttered for the user before they continued with the site.  Because of this an explore button linked to the first section, called About Us, was added.  This explore button's aim is to invite the user to interact and encourage them to continue on reading.  The user can also scroll but the explore button adds an extra feature incase the instinct to scroll does not happen.
+    * The landing page was designed not to show any hint of content below to allow the background video to have the effect of calm and the landing page to be decluttered for the user before they continued with the site.  Again, this calming and decluttered effect compliments the theme of mindfulness.  Because of this design feature then, an explore button linked to the first section, called About Us, was added.  This explore button's aim is to invite the user to interact and encourage them to continue on reading.  The user can also scroll but the explore button adds an extra feature incase the instinct to scroll does not happen when there is no hint of content below the landing page.
 
-    * The explore button letters are white on a gray background, for not only contrast for reading accessibilty but also keeping consistant with the main colours chsoen thorughout the website.  The letters also expand when hovered over and the colours of white text on gray back ground alternate to gray letters on whote background to inform the user that the button is interactive.
+    * The explore button letters are white on a gray background, for not only contrast for reading accessibilty but also keeping consistant with the main colours chosen thorughout the website.  The letters also expand when hovered over and the colours of white text on gray back ground alternate to gray letters on white background to inform the user that the button is interactive.
 
 
 3. **About Us Section**
