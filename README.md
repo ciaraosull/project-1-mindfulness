@@ -76,10 +76,13 @@
 
 ![Mindfulness - Benefits Screenshot](assets/images/benefits-screenshot.png)
 
-
-
-
 5. **Practice Section**
+
+* The Practice section of the website instructs the user how to get set up before pressing play on an imbedded audio mindfulness session.  The user is told how long the session will take and the title of the recording.  The audio controller is not on auto-play so the user has full control over this interactive piece.
+
+* This Practice section was designed to compliment the About Us & Learn sections with minor differences such as the images and the audio control.
+
+![Mindfulness - Practice Screenshot](assets/images/practice-screenshot.png)
 
 6.  **Sign Up Section**
 
