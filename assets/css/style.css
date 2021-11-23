@@ -123,7 +123,6 @@
   .content-area {
     width: 100%;
     position: relative;
-    height: 1500px;
     top: 1000px;
     background: #ddd;
     padding-top: 20px;
@@ -412,12 +411,12 @@
 
   @media (min-width: 1280px) {
     .content-area {
-      height: 1280px
+      top: 1280px
     }
   }
 
   @media (min-width: 1600px) {
     .content-area {
-      height: 1600px
+      top: 1600px
     }
   }
