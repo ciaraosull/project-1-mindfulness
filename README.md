@@ -68,6 +68,17 @@
 
 4. **Learn Section**
 
+* The Learn section consists of 2 subsections.  The first provides information on what mindfulness is and the second provides an overview of the benefits of mindfulness.
+
+* Both subsections were designed to compliment the About Us section with minor differences such as the images and a quote in bolder writing.
+
+![Mindfulness - Learn Screenshot](assets/images/learn-screenshot.png)
+
+![Mindfulness - Benefits Screenshot](assets/images/benefits-screenshot.png)
+
+
+
+
 5. **Practice Section**
 
 6.  **Sign Up Section**
