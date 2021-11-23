@@ -123,6 +123,7 @@
   .content-area {
     width: 100%;
     position: relative;
+    height: 1500px;
     top: 1000px;
     background: #ddd;
     padding-top: 20px;
