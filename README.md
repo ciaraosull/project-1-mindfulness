@@ -74,6 +74,8 @@
 
 ![Mindfulness - Learn Screenshot](assets/images/learn-screenshot.png)
 
+<br />
+
 ![Mindfulness - Benefits Screenshot](assets/images/benefits-screenshot.png)
 
 5. **Practice Section**
