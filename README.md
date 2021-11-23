@@ -48,6 +48,17 @@
 
 
 3. **About Us Section**
+* The About Us section contains important information the user needs to know about the organisation and the purpose.  
+
+* It also gives the user a brief summary of what this website is about and directs them to scroll or use the navigation bar for the rest of the content on the site.
+
+* The background colour used was the dark gray to keep consistancy throughout the site with the header and footer.  The font is whote for contrast and again consistancy with the rest of the site.
+
+* The text and the image are over lapped slightly for visual appeal and uniqness to taxt and image side-by-side.
+
+* A media query was used for responsiveness on smaller screens to take out an extra white background.  his seemed to be visually more appealing on a smaller screen with less clutter.
+
+* Also on smaller screens, the image is set to become a circle as again this seemed more appealing and not as cluttering on smaller screens. 
 
 4. **Learn Section**
 
