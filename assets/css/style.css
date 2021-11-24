@@ -292,6 +292,10 @@
     background-color: #fafafa;
   }
 
+  .thank-you-header {
+    position: unset;
+  }
+
   footer {
     width: 100%;
     padding: 10px 30px;
