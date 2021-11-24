@@ -354,46 +354,34 @@
       flex-direction: column;
       padding: 5px 0 5px;
     }
-  }
 
-  @media (max-width: 800px) {
     .nav-bar li {
       font-size: 3vw;
       margin: 0 5px;
     }
-  }
 
-  @media (max-width: 800px) {
     video {
       width: 100vw;
       left: 0;
       margin-top: 0;
     }
-  }
 
-  @media (max-width: 800px) {
     .banner-text {
       font-size: 2vw;
     }
-  }
 
-  @media (max-width: 800px) {
     .main-content-container {
       flex-direction: column;
       padding: 0;
       background-color: #424952;;
     }
-  }
-
-  @media (max-width: 800px) {
+  
     header, .banner, .container-text, #about-lotus-image, #mindfulness-image, #still-lake-image, #zen-stones-image, #mindfulness-text, #practice-text {
       width: 100%;
       margin-left: 0%;
       margin-right: 0%;
     }
-  }
-
-  @media (max-width: 800px) {
+  
     #about-lotus-image, #mindfulness-image, #still-lake-image, #zen-stones-image {
     width: 200px;
     height: 200px;
@@ -401,9 +389,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     }
-  }
-
-  @media (max-width: 800px) {
+ 
     .form-text, .form-input {
     width: 100%;
     margin: 0 auto;
