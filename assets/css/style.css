@@ -296,6 +296,10 @@
     position: unset;
   }
 
+  .thank-you-container {
+    margin: 5%;
+  }
+
   footer {
     width: 100%;
     padding: 10px 30px;
