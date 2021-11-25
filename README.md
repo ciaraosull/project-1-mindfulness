@@ -97,6 +97,17 @@
 ![Mindfulness - Practice Screenshot](assets/images/practice-screenshot.png)
 
 7.  **Sign Up Section**
+    * The Sign Up section contains a form and information explaining to the user that if they would like to recieve a monthly subscription by email for free then they can complete the form.  The option to choose if they would like to sign up to an online mindfulness group iin the future is also given on the form.  The user is also informed how to unsubscibe in the future if the wish to do so.
+
+    * The form is set on a pictured background to enable it to stand out as a separate section from the rest of the webpage but the image and colour scheme are kept consistant with the theme and design of the overall site.  The areas of input change colour on hover and the submit but also changes colour and the letter spacing grows on hover.  This is all designed to give feedback to the user visually on their actions.
+
+    ![Sign Up Screenshot](assets/images/sign-up-screenshot.png)
+
+    * Originally the form had an input submit button, a method of POST and an action of the Code Institue Form Dump site.  This is the correct format if using a form in the future for a real website, but it was found on testing that it became annoying and difficult for user testing this site as once they submitted thier form they were taken to the Code Institue webpage explaining what they had submitted.  
+    
+        For ease of use on the user for testing it was decided to take out the method and action and replace the input button with an anchor tag linked to a Thank You Page instead.  This page was designed to give feedback to the user on the action they completed.  
+        
+        The form does take into account that the name and email address are required, however, due to the above change this no longer happens.  In a real webpage scenario, the correct method, action and input functions would be used.
 
 8.  **Contact Us Section**
 
