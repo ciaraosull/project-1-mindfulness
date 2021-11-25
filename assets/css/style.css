@@ -272,7 +272,7 @@
     background-color: #aa1919;
 }
 
-#sign-up-button {
+.sign-up-button {
   margin-top: 20px;
   border-radius: 2px;
   padding: 10px;
@@ -286,7 +286,7 @@
   width: 30%;
 }
 
-#sign-up-button:hover {
+.sign-up-button:hover {
     letter-spacing: 2px;
     color: #aa1919;
     background-color: #fafafa;
@@ -402,10 +402,6 @@
 
     .form-container {
       padding: 10px;
-    }
-
-    #sign-up-button {
-      width: 50%;
     }
   }
 
