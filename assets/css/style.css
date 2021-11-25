@@ -235,7 +235,7 @@
     z-index: 1;
   }
 
-  .form-container {
+  .form-container, .thank-you-container {
     margin: 20px 40px 40px 40px;
     padding: 40px;
     border-radius: 20px;
@@ -294,10 +294,6 @@
 
   .thank-you-header {
     position: unset;
-  }
-
-  .thank-you-container {
-    margin: 5%;
   }
 
   footer {
