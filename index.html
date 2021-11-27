@@ -11,8 +11,11 @@
         content="mindfulness, online meditation, what is mindfulness, benefits of mindfulness, free mindfulness audio, free mindfulness app.">
     <meta name="author" content="Ciara O'Sullivan">
 
+    <!-- Link to Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Link to Fontawesome -->
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+    <!-- Link for Favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico" />
 
     <title>Mindfulness</title>
@@ -21,12 +24,14 @@
 
 <body>
     <header>
+        <!-- Logo linked to home page -->
         <div class="logo">
             <a href="index.html" aria-label="Go to the home page">
                 <h2>be.here.now.</h2>
             </a>
         </div>
 
+        <!-- Navigation bar with links to each section -->
         <nav class="nav-bar">
             <ul>
                 <li><a href="index.html" aria-label="Go to the home page">Home</a></li>
@@ -39,23 +44,25 @@
         </nav>
     </header>
 
+    <!-- Landing page with video and text on top -->
     <section class="banner">
         <video src="assets/images/shellshore.mp4" muted loop autoplay></video>
-
         <div class="banner-text">
             <h1>Mindfulness</h1>
             <h2>Embrace the present moment</h2>
-
+            <!-- Explore button on landing page linked to first section -->
             <div id="explore-link">
                 <a href="#about" aria-label="Go to the about us section">Explore</a>
             </div>
-
         </div>
     </section>
 
+    <!-- The main content area that scrolls up over the landing section -->
     <section class="content-area">
-
+        <!-- About Us section -->
         <section id="about">
+            <!-- Empty div to land the link from the nav bar to About Us section 
+                so not blocked by fixed header -->
             <div class="about-anchor" id="about-landing"></div>
             <div class="main-content-container">
                 <div class="container-text" id="about-text">
@@ -67,18 +74,24 @@
                         practice.</p><br>
                     <p>Scroll to content or use the navigation links in the top right corner.</p>
                 </div>
-
+                <!-- The Lotus Flower Image in the About Us Section -->
                 <div id="about-lotus-image">
                 </div>
             </div>
         </section>
 
+        <!-- The 1st part of the Learn Section -->
         <section id="learn">
+            <!-- Empty div to land the link from the nav bar to Learn section
+                 so not blocked by fixed header -->
             <div class="learn-anchor" id="learn-landing"></div>
             <div class="main-content-container">
+                <!-- The new tree shoot in bark image for the What is Mindfulness
+                     information in the Learn section -->
                 <div id="mindfulness-image">
                 </div>
 
+                <!-- The What is Mindfulness information in the Learn Section -->
                 <div class="container-text" id="mindfulness-text">
                     <h2>What is Mindfulness?</h2><br>
                     <p>Our mind can wander and we can become preoccupied with thoughts about something that has happened
@@ -91,6 +104,7 @@
             </div>
         </section>
 
+        <!-- The 2nd part of the Learn Section with information on the Benefits of Mindfulness -->
         <section id="benefits">
             <div class="main-content-container">
                 <div class="container-text" id="benefits-text">
@@ -110,23 +124,29 @@
                         </li>
                     </ul>
                 </div>
-
+                <!-- The zen stones image for the Benefits of Mindfulness
+                     information in the Learn section -->
                 <div id="zen-stones-image">
                 </div>
             </div>
         </section>
 
+        <!-- The Practice Section -->
         <section id="practice">
+            <!-- Empty div to land the link from the nav bar to Practice section
+                 so not blocked by fixed header -->
             <div class="practice-anchor" id="practice-landing"></div>
             <div class="main-content-container">
+                <!-- The still lake image for the Practice Section -->
                 <div id="still-lake-image">
                 </div>
-
+                <!-- The text for the Practice Section -->
                 <div class="container-text" id="practice-text">
                     <h2>Mindful Practice</h2><br>
                     <p>Find a quiet place and get comfortable. Press play to relax and listen to this 14 minute
                         mindfulness audio recording called <span>The Still Lake</span></p>
-                    <audio controls>
+                    <!-- The Audio for the Practice Section -->
+                        <audio controls>
                         <source src="assets/images/still-lake-audio.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
@@ -134,9 +154,14 @@
             </div>
         </section>
 
+        <!-- The Sign Up Section with Form -->
         <section id="sign-up" class="form-container">
+            <!-- Empty div to land the link from the nav bar to Sign Up section
+                 so not blocked by fixed header -->
             <div class="sign-up-anchor" id="sign-up-landing"></div>
 
+            <!-- The Form for the Sign Up Section linked to the thank-you.html page to
+                 ensure feedback given to user that the form has been submitted-->
             <form class="form-text" method="get" action="thank-you.html">
                 <h2>Sign Up to Our Ezine</h2>
                 <p>Our Ezines are emailed monthly and are designed to keep you up to date with all the latest
@@ -144,14 +169,17 @@
                 <p>Also included every month are audio and video mindfulness practice sessions.</p><br>
                 <h3>Complete the form below to sign up:</h3>
 
+                <!-- Required section for name-->
                 <label for="name">First & Last Name</label><br>
                 <input class="form-input" id="name" type="text" name="full-name" required>
                 <br>
 
+                <!-- Required section for email-->
                 <label for="email">Email Address</label><br>
                 <input class="form-input" id="email" type="email" name="email_address" required>
                 <br>
 
+                <!-- Optional section with radio buttons-->
                 <p>Would you like to be contacted about future online Mindfulness Groups?</p>
                 <br>
                 <input id="yes" type="radio" name="contact" value="yes">
@@ -161,19 +189,23 @@
                 <input id="no" type="radio" name="contact" value="no">
                 <label for="no">No</label>
 
+                <!-- The Submit button called Sign Me Up-->
                 <input class="sign-up-button" type="submit" value="Sign Me Up">
-
                 <br>
                 <p>If you wish to discontinue, just click unsuscribe in the email we send each month.</p>
             </form>
         </section>
 
         <footer>
+            <!-- The Contact Us Section contained within the Footer -->
             <section class="contact-us-container" id="contact-us">
                 <div class="contact-us-info">
                     <h3>Contact Us</h3>
+                    <!-- Link to company location on Google Maps to Open in New Tab -->
                     <a href="https://goo.gl/maps/SBYdgmfo3gP4sJQA8" target="_blank"
                         aria-label="Go to our address in google maps">
+                        <!-- Font Awesome Map Location Icon to visually
+                             show user to click here for the location -->
                         <p><i class="fas fa-map-marker-alt"></i>123, Fake Street, Dublin Ireland</p>
                     </a>
                 </div>
@@ -181,20 +213,28 @@
                 <div class="app-info">
                     <h3>Download Our App</h3>
 
+                    <!-- Link to company App on Play Store to open in New Tab -->
                     <a href="https://play.google.com/store/search?q=headspace&gl=IE" target="_blank"
                         aria-label="Go to Play Store to download our App">
+                        <!-- Font Awesome Google Play Store Icon to visually
+                             show user to click here to Open Goolgle Play Store -->
                         <p><i class="fab fa-google-play"></i>Google Play</p>
                     </a>
 
+                    <!-- Link to company App on Apple Store to open in New Tab -->
                     <a href="https://apps.apple.com/ie/app/apple-store/id375380948" target="_blank"
                         aria-label="Go to Apple Store to download our App">
-                        <p><i class="fab fa-apple"></i>Apple Store</p>
+                        <!-- Font Awesome Apple Store Icon to visually
+                             show user to click here to Open -->
+                             <p><i class="fab fa-apple"></i>Apple Store</p>
                     </a>
                 </div>
 
                 <div class="copyright">
+                    <!-- Link to Website Author's Linkedin Profile Page to open in New Tab -->
                     <a href="https://www.linkedin.com/in/ciara-o-sullivan-2834378b" target="_blank"
                         aria-label="Go to linkedin profile">
+                        <!-- Font Awesome Copyright Icon -->
                         <p><i class="far fa-copyright"></i>2021 Ciara O'Sullivan</p>
                     </a>
                 </div>
