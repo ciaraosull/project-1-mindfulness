@@ -9,267 +9,272 @@
   box-sizing: border-box;
 }
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px;
-    background: #424952;
-    width: 100%;
-    position: fixed;
-    z-index: 99;
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background: #424952;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
 
-  .logo a {
-    text-decoration: none;
-    transition: 0.3s;
-  }
+.logo a {
+  text-decoration: none;
+  transition: 0.3s;
+}
 
-  .logo a:hover {
-    letter-spacing: 2px;
-  }
+.logo a:hover {
+  letter-spacing: 2px;
+}
 
-  .logo h2 {
-    color: #fff;
-    font-family: 'Irish Grover', cursive;
-  }
-  
-  .nav-bar {
-    font-size: 110%;
-  }
-  
-  .nav-bar li {
-    display: inline-flex;
-    margin: 0 10px;
-    list-style-type: none;
-  }
+.logo h2 {
+  color: #fff;
+  font-family: 'Irish Grover', cursive;
+}
 
-  .nav-bar a {
-    color: #fff;
-    text-decoration: none;
-    letter-spacing: 1px;
-    transition: 0.3s;
-  }
+.nav-bar {
+  font-size: 110%;
+}
 
-  .nav-bar a:hover {
-    letter-spacing: 2px;
-    border-bottom: 1px solid #fff;
-  }
-  
-  .banner {
-    position: fixed;
-    right: 0;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-  
-  video {
-    position: fixed;
-    margin-top: 50px;
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    opacity: 0.7;
-    z-index: -1;
-  }
+.nav-bar li {
+  display: inline-flex;
+  margin: 0 10px;
+  list-style-type: none;
+}
 
-  .banner-text {
-    width: 60%;
-    margin: 0 0 50px 50px;
-    flex-direction: column;
-  }
+.nav-bar a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
 
-  .banner-text h1 {
-    font-size: 4.5em;
-    line-height: 1.5em;
-    font-style: italic;
-    text-align: start;
-    color: #fff;
-    text-shadow: 0 0 20px #262626;
-  }
+.nav-bar a:hover {
+  letter-spacing: 2px;
+  border-bottom: 1px solid #fff;
+}
 
-  .banner-text h2 {
-    text-align: center;
-    font-size: 2.5em;
-    text-transform: capitalize;
-    color: #fff;
-    text-shadow: 0 0 20px #262626;
-  }
+.banner {
+  position: fixed;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
 
-  #explore-link {
-    text-align: end;
-    width: 80%;
-    margin-top: 10px;
-  }
+video {
+  position: fixed;
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  opacity: 0.7;
+  z-index: -1;
+}
 
-  #explore-link a {
-    color: #fff;
-    background-color: #424952;
-    border-radius: 10px;
-    font-size: 1.5em;
-    padding: 10px;
-    line-height: 2.5em;
-    text-decoration: none;
-  }
+.banner-text {
+  width: 60%;
+  margin: 0 0 50px 50px;
+  flex-direction: column;
+}
 
-  #explore-link a:hover {
-    letter-spacing: 2px;
-    color: #424952;
-    background-color: #fff;
-  }
+.banner-text h1 {
+  font-size: 4.5em;
+  line-height: 1.5em;
+  font-style: italic;
+  text-align: start;
+  color: #fff;
+  text-shadow: 0 0 20px #262626;
+}
 
-  .content-area {
-    width: 100%;
-    position: relative;
-    top: 1000px;
-    background: #ddd;
-    padding-top: 20px;
-  }
+.banner-text h2 {
+  text-align: center;
+  font-size: 2.5em;
+  text-transform: capitalize;
+  color: #fff;
+  text-shadow: 0 0 20px #262626;
+}
 
-  .main-content-container {
-    background-color: #fff;
-    margin: 20px 40px 40px 40px;
-    padding: 40px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+#explore-link {
+  text-align: end;
+  width: 80%;
+  margin-top: 10px;
+}
 
-  .container-text {
-    display: flex;
-    flex-direction: column;
-    background-color: #424952;
-    border-radius: 20px;
-    width: 50%;
-    padding: 20px;
-    color: #fff;
-    z-index: 20;
-    margin-left: 50px;
-  }
+#explore-link a {
+  color: #fff;
+  background-color: #424952;
+  border-radius: 10px;
+  font-size: 1.5em;
+  padding: 10px;
+  line-height: 2.5em;
+  text-decoration: none;
+}
 
-  .container-text h2 {
-    text-shadow: 0 0 4px #262626;
-  }
+#explore-link a:hover {
+  letter-spacing: 2px;
+  color: #424952;
+  background-color: #fff;
+}
 
-  .container-text p {
-    text-align: justify;
-  }
+.content-area {
+  width: 100%;
+  position: relative;
+  top: 1000px;
+  background: #ddd;
+  padding-top: 20px;
+}
 
-  .about-anchor, .learn-anchor, .practice-anchor, .sign-up-anchor {
-    margin-top: -65px;
-    height: 65px;
-  }
+.main-content-container {
+  background-color: #fff;
+  margin: 20px 40px 40px 40px;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  #about-text span {
-    font-family: 'Irish Grover', cursive;
-    text-shadow: 0 0 4px #262626;
-  }
+.container-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #424952;
+  border-radius: 20px;
+  width: 50%;
+  padding: 20px;
+  color: #fff;
+  z-index: 20;
+  margin-left: 50px;
+}
 
-  #mindfulness-text-p2 {
-    font-weight: bold;
-    text-align: center;
-  }
+.container-text h2 {
+  text-shadow: 0 0 4px #262626;
+}
 
-  #benefits-text ul {
-    list-style: none;
-  }
+.container-text p {
+  text-align: justify;
+}
 
-  audio {
-    width: 70%;
-    margin-top: 20px;
-  }
+.about-anchor,
+.learn-anchor,
+.practice-anchor,
+.sign-up-anchor {
+  margin-top: -65px;
+  height: 65px;
+}
 
-  #practice-text, #mindfulness-text {
-    margin-right: 50px;
-  }
+#about-text span {
+  font-family: 'Irish Grover', cursive;
+  text-shadow: 0 0 4px #262626;
+}
 
-  #practice-text span {
-    font-style: italic;
-    font-weight: bold;
-  }
+#mindfulness-text-p2 {
+  font-weight: bold;
+  text-align: center;
+}
 
-  audio {
-    width: 100%;
-  }
+#benefits-text ul {
+  list-style: none;
+}
 
-  #about-lotus-image {
-    width: 40%;
-    height: 300px;
-    background: url("../images/lotus-flower.jpg") no-repeat center / cover;
-    margin-left: -100px;
-    margin-right: 50px;
-    border-radius: 300px;
-    z-index: 1;
-  }
+audio {
+  width: 70%;
+  margin-top: 20px;
+}
 
-  #mindfulness-image {
-    width: 40%;
-    height: 300px;
-    background: url("../images/mindfulness-image.jpg") no-repeat center / cover;
-    margin-right: -150px;
-    margin-left: 50px;
-    border-radius: 350px;
-    z-index: 1;
-  }
+#practice-text,
+#mindfulness-text {
+  margin-right: 50px;
+}
 
-  #zen-stones-image {
-    width: 40%;
-    height: 300px;
-    background: url("../images/zen-stones-image.jpg") no-repeat center / cover;
-    margin-left: -100px;
-    margin-right: 50px;
-    border-radius: 300px;
-    z-index: 1;
-  }
+#practice-text span {
+  font-style: italic;
+  font-weight: bold;
+}
 
-  #still-lake-image {
-    width: 40%;
-    height: 300px;
-    background: url("../images/still-lake-image.jpg") no-repeat center / cover;
-    margin-right: -150px;
-    margin-left: 50px;
-    border-radius: 300px;
-    z-index: 1;
-  }
+audio {
+  width: 100%;
+}
 
-  .form-container, .thank-you-container {
-    margin: 20px 40px 40px 40px;
-    padding: 40px;
-    border-radius: 20px;
-    background: url("../images/singing-bowl.jpg") no-repeat center / cover;
-  
-  }
+#about-lotus-image {
+  width: 40%;
+  height: 300px;
+  background: url("../images/lotus-flower.jpg") no-repeat center / cover;
+  margin-left: -100px;
+  margin-right: 50px;
+  border-radius: 300px;
+  z-index: 1;
+}
 
-  .form-text {
-    color: #fff;
-    width: 60%;
-    margin-left: 40px;
-    background-color: rgba(60, 60, 60, 0.8);
-    border-radius: 40px;
-    padding: 20px;
-  }
+#mindfulness-image {
+  width: 40%;
+  height: 300px;
+  background: url("../images/mindfulness-image.jpg") no-repeat center / cover;
+  margin-right: -150px;
+  margin-left: 50px;
+  border-radius: 350px;
+  z-index: 1;
+}
 
-  .form-text h2, h3 {
-    padding-bottom: 1em;
-    text-transform: capitalize;
-  }
+#zen-stones-image {
+  width: 40%;
+  height: 300px;
+  background: url("../images/zen-stones-image.jpg") no-repeat center / cover;
+  margin-left: -100px;
+  margin-right: 50px;
+  border-radius: 300px;
+  z-index: 1;
+}
 
-  .form-input {
-    background: transparent;
-    color: #fafafa;
-    width: 70%;
-    height: 25px;
-    margin: 5px 0 20px;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    display: block;
-  }
+#still-lake-image {
+  width: 40%;
+  height: 300px;
+  background: url("../images/still-lake-image.jpg") no-repeat center / cover;
+  margin-right: -150px;
+  margin-left: 50px;
+  border-radius: 300px;
+  z-index: 1;
+}
 
-  .form-input:hover {
-    background-color: #aa1919;
+.form-container,
+.thank-you-container {
+  margin: 20px 40px 40px 40px;
+  padding: 40px;
+  border-radius: 20px;
+  background: url("../images/singing-bowl.jpg") no-repeat center / cover;
+}
+
+.form-text {
+  color: #fff;
+  width: 60%;
+  margin-left: 40px;
+  background-color: rgba(60, 60, 60, 0.8);
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.form-text h2,
+h3 {
+  padding-bottom: 1em;
+  text-transform: capitalize;
+}
+
+.form-input {
+  background: transparent;
+  color: #fafafa;
+  width: 70%;
+  height: 25px;
+  margin: 5px 0 20px;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  display: block;
+}
+
+.form-input:hover {
+  background-color: #aa1919;
 }
 
 .sign-up-button {
@@ -278,7 +283,7 @@
   padding: 10px;
   text-align: center;
   font-size: 100%;
-  background-color: #aa1919;;
+  background-color: #aa1919;
   color: #fafafa;
   display: block;
   font-weight: bold;
@@ -286,132 +291,151 @@
 }
 
 .sign-up-button:hover {
-    letter-spacing: 2px;
-    color: #aa1919;
-    background-color: #fafafa;
-  }
+  letter-spacing: 2px;
+  color: #aa1919;
+  background-color: #fafafa;
+}
 
-  .thank-you-header {
-    position: unset;
-  }
+.thank-you-header {
+  position: unset;
+}
 
-  footer {
-    width: 100%;
-    padding: 10px 30px;
-    background: #424952;
-  }
+footer {
+  width: 100%;
+  padding: 10px 30px;
+  background: #424952;
+}
 
+.contact-us-container {
+  width: 100%;
+  color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-info {
+  flex: 35%;
+  padding: 20px;
+}
+
+.contact-us-info p {
+  padding-left: 40px;
+}
+
+.contact-us-info a,
+.app-info a,
+.copyright a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.contact-us-info a:hover,
+.app-info a:hover,
+.copyright a:hover {
+  letter-spacing: 1px;
+  color: #aa1919;
+  font-weight: bold;
+}
+
+.app-info {
+  flex: 35%;
+  padding: 20px;
+}
+
+.app-info p {
+  display: inline-flex;
+  padding-left: 40px;
+}
+
+.copyright {
+  flex: 30%;
+  align-self: flex-end;
+}
+
+.copyright p {
+  font-style: italic;
+  padding: 0 0 20px 30px;
+}
+
+i {
+  padding-right: 10px;
+}
+
+
+@media (max-width: 800px) {
+
+  header,
   .contact-us-container {
+    flex-direction: column;
+    padding: 5px 0 5px;
+  }
+
+  .nav-bar li {
+    font-size: 3vw;
+    margin: 0 5px;
+  }
+
+  video {
+    width: 100vw;
+    left: 0;
+    margin-top: 0;
+  }
+
+  .banner-text {
+    font-size: 2vw;
+  }
+
+  .main-content-container {
+    flex-direction: column;
+    padding: 0;
+    background-color: #424952;
+    ;
+  }
+
+  header,
+  .banner,
+  .container-text,
+  #about-lotus-image,
+  #mindfulness-image,
+  #still-lake-image,
+  #zen-stones-image,
+  #mindfulness-text,
+  #practice-text {
     width: 100%;
-    color: #fafafa;
-    display: flex;
-    justify-content: space-between;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 
-  .contact-us-info {
-    flex: 35%;
-    padding: 20px;
-  }
-
-  .contact-us-info p {
-    padding-left: 40px;
-  }
-
-  .contact-us-info a, .app-info a, .copyright a {
-    text-decoration: none;
-    color: #fafafa;
-  }
-
-  .contact-us-info a:hover, .app-info a:hover, .copyright a:hover {
-    letter-spacing: 1px;
-    color: #aa1919;
-    font-weight: bold;
-  }
-
-  .app-info {
-    flex: 35%;
-    padding: 20px;
-  }
-
-  .app-info p {
-    display: inline-flex;
-    padding-left: 40px;
-  }
-
-  .copyright {
-    flex: 30%;
-    align-self: flex-end;
-  }
-
-  .copyright p {
-    font-style: italic;
-    padding: 0 0 20px 30px;
-  }
-
-  i {
-    padding-right: 10px;
-  }
-
-
-  @media (max-width: 800px) {
-    header, .contact-us-container {
-      flex-direction: column;
-      padding: 5px 0 5px;
-    }
-
-    .nav-bar li {
-      font-size: 3vw;
-      margin: 0 5px;
-    }
-
-    video {
-      width: 100vw;
-      left: 0;
-      margin-top: 0;
-    }
-
-    .banner-text {
-      font-size: 2vw;
-    }
-
-    .main-content-container {
-      flex-direction: column;
-      padding: 0;
-      background-color: #424952;;
-    }
-  
-    header, .banner, .container-text, #about-lotus-image, #mindfulness-image, #still-lake-image, #zen-stones-image, #mindfulness-text, #practice-text {
-      width: 100%;
-      margin-left: 0%;
-      margin-right: 0%;
-    }
-  
-    #about-lotus-image, #mindfulness-image, #still-lake-image, #zen-stones-image {
+  #about-lotus-image,
+  #mindfulness-image,
+  #still-lake-image,
+  #zen-stones-image {
     width: 200px;
     height: 200px;
     border-radius: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
-    }
- 
-    .form-text, .form-input {
+  }
+
+  .form-text,
+  .form-input {
     width: 100%;
     margin: 0 auto;
-    }
-
-    .form-container {
-      padding: 10px;
-    }
   }
 
-  @media (min-width: 1280px) {
-    .content-area {
-      top: 1280px
-    }
+  .form-container {
+    padding: 10px;
   }
+}
 
-  @media (min-width: 1600px) {
-    .content-area {
-      top: 1600px
-    }
+@media (min-width: 1280px) {
+  .content-area {
+    top: 1280px
   }
+}
+
+@media (min-width: 1600px) {
+  .content-area {
+    top: 1600px
+  }
+}
