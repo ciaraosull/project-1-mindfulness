@@ -1,3 +1,4 @@
+/* Link to Google Fonts used throughout site */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Irish+Grover&family=Princess+Sofia&display=swap');
 
 * {
@@ -9,19 +10,26 @@
   box-sizing: border-box;
 }
 
+/* Styling for the Whole Header Section */
 header {
-  display: flex;
+  /* Using flexbox for responsive design */
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
   background: #424952;
   width: 100%;
+  /* Fixed header to always display on top of page*/
   position: fixed;
-  z-index: 99;
+  /* Using z-index to ensure header is in front 
+  of the other sections as they scroll passed */
+  z-index: 99; 
 }
 
+/* The logos link styled */
 .logo a {
   text-decoration: none;
+  /* Use a transition here for smooth movement on hover */
   transition: 0.3s;
 }
 
@@ -29,25 +37,30 @@ header {
   letter-spacing: 2px;
 }
 
+/* The Logo in header styled */
 .logo h2 {
   color: #fff;
   font-family: 'Irish Grover', cursive;
 }
 
+/* The navigation bar section styled */
 .nav-bar {
   font-size: 110%;
 }
 
+/* The list elements in the navigation bar styled */
 .nav-bar li {
   display: inline-flex;
   margin: 0 10px;
   list-style-type: none;
 }
 
+/* The links for the navigation bar items */
 .nav-bar a {
   color: #fff;
   text-decoration: none;
   letter-spacing: 1px;
+  /* Use a transition here for smooth movement */
   transition: 0.3s;
 }
 
@@ -56,7 +69,9 @@ header {
   border-bottom: 1px solid #fff;
 }
 
+/* The main container for the landing home page under the header */
 .banner {
+  /* fixed to main content moves over as scrolled */
   position: fixed;
   right: 0;
   width: 100%;
@@ -65,19 +80,24 @@ header {
   align-items: center;
 }
 
+/* The background video of the landing home page */
 video {
   position: fixed;
   margin-top: 50px;
   width: 100%;
   height: 100%;
   object-fit: fill;
+  /* Give some opacitiy so not too dominating when text laid on top */
   opacity: 0.7;
+  /* Use z-index so video sits behind the main title text on top */
   z-index: -1;
 }
 
+/* The text that sits on top of the background video of the landing home page */
 .banner-text {
   width: 60%;
   margin: 0 0 50px 50px;
+  /* Use flexbox for responsiveness */
   flex-direction: column;
 }
 
@@ -87,6 +107,8 @@ video {
   font-style: italic;
   text-align: start;
   color: #fff;
+  /* Use shadow around text as it will be white and this helps 
+  it stand out for reading accessibility against the video background */
   text-shadow: 0 0 20px #262626;
 }
 
@@ -98,6 +120,7 @@ video {
   text-shadow: 0 0 20px #262626;
 }
 
+/* Explore Button on Landing home page styled */
 #explore-link {
   text-align: end;
   width: 80%;
@@ -128,6 +151,8 @@ video {
   padding-top: 20px;
 }
 
+/* This is the main content area that will move 
+over the landing page and behind the header */
 .main-content-container {
   background-color: #fff;
   margin: 20px 40px 40px 40px;
@@ -138,6 +163,8 @@ video {
   justify-content: center;
 }
 
+/* This is the containers that hold the text of each section 
+within the main content area mentioned above */
 .container-text {
   display: flex;
   flex-direction: column;
@@ -146,6 +173,8 @@ video {
   width: 50%;
   padding: 20px;
   color: #fff;
+  /* Using high z-index to ensure the text boxes 
+  are in front of the images when overlapped on large screens */
   z-index: 20;
   margin-left: 50px;
 }
@@ -158,6 +187,10 @@ video {
   text-align: justify;
 }
 
+/* The empty divs that anchor the link when chosen in the nav bar.
+They are given a negative margin from the top and a positive identical height
+that match the height of the header.  This allows some room on top of the 
+section so it does not sit behind the fixed header */
 .about-anchor,
 .learn-anchor,
 .practice-anchor,
@@ -166,6 +199,7 @@ video {
   height: 65px;
 }
 
+/* Consistant style for whenever the company name mentioned */
 #about-text span {
   font-family: 'Irish Grover', cursive;
   text-shadow: 0 0 4px #262626;
@@ -180,25 +214,26 @@ video {
   list-style: none;
 }
 
+/* Styling for the audio controls */
 audio {
   width: 70%;
   margin-top: 20px;
 }
 
+/* The sections with text on the right given a positive 
+margin for overlapping with images on larger screens */
 #practice-text,
 #mindfulness-text {
   margin-right: 50px;
 }
 
+/* Explore Button on Landing home page styled */
 #practice-text span {
   font-style: italic;
   font-weight: bold;
 }
 
-audio {
-  width: 100%;
-}
-
+/* Images given a negative margin to overlap on larger screens */
 #about-lotus-image {
   width: 40%;
   height: 300px;
@@ -239,6 +274,7 @@ audio {
   z-index: 1;
 }
 
+/* Form and section on thank you page styled similarly for consistancy to user */
 .form-container,
 .thank-you-container {
   margin: 20px 40px 40px 40px;
@@ -273,6 +309,8 @@ h3 {
   display: block;
 }
 
+/* Give an action to inform user when 
+clicked into the section to start typing */
 .form-input:hover {
   background-color: #aa1919;
 }
@@ -290,22 +328,29 @@ h3 {
   text-decoration: none;
 }
 
+/* Gives an action to inform user when 
+about to click on submit button */
 .sign-up-button:hover {
   letter-spacing: 2px;
   color: #aa1919;
   background-color: #fafafa;
 }
 
+/* No need for fixed header on thank you page as short page and no scrolling needed */
 .thank-you-header {
   position: unset;
 }
 
+
+/* Keeping footer colour consistant with header */
 footer {
   width: 100%;
   padding: 10px 30px;
   background: #424952;
 }
 
+/* Using flexbox for responsiveness and 
+spacing out the information within the footer */
 .contact-us-container {
   width: 100%;
   color: #fafafa;
@@ -322,6 +367,7 @@ footer {
   padding-left: 40px;
 }
 
+/* Styling link within the footer the same for consistancy */
 .contact-us-info a,
 .app-info a,
 .copyright a {
@@ -329,6 +375,8 @@ footer {
   color: #fafafa;
 }
 
+/* Action added to inform user visually that 
+these are links and can be clicked */
 .contact-us-info a:hover,
 .app-info a:hover,
 .copyright a:hover {
@@ -357,6 +405,7 @@ footer {
   padding: 0 0 20px 30px;
 }
 
+/* Styling font awesome icons to give space before text */
 i {
   padding-right: 10px;
 }
@@ -364,6 +413,8 @@ i {
 
 @media (max-width: 800px) {
 
+  /* Using flexbox column for responsiveness 
+  and less padding for smaller screens on heading */
   header,
   .contact-us-container {
     flex-direction: column;
@@ -388,10 +439,11 @@ i {
   .main-content-container {
     flex-direction: column;
     padding: 0;
+    /* No extra white background for smaller screens as too cluttered */
     background-color: #424952;
-    ;
   }
 
+  /* Reset margins for smaller screens */
   header,
   .banner,
   .container-text,
@@ -406,6 +458,8 @@ i {
     margin-right: 0%;
   }
 
+  /* Circle images for smaller screen and have sit 
+  either above or below the text for each section */
   #about-lotus-image,
   #mindfulness-image,
   #still-lake-image,
@@ -423,11 +477,14 @@ i {
     margin: 0 auto;
   }
 
+  /* Reduce padding on form for smaller screens 
+  for maximum use of space for reading accessibility*/
   .form-container {
     padding: 10px;
   }
 }
 
+/* Adjust height of the content area so not visible on landing page on larger screens */
 @media (min-width: 1280px) {
   .content-area {
     top: 1280px
