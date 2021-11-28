@@ -101,13 +101,15 @@
 
     * The form is set on a pictured background to enable it to stand out as a separate section from the rest of the webpage but the image and colour scheme are kept consistant with the theme and design of the overall site.  The areas of input change colour on hover and the submit but also changes colour and the letter spacing grows on hover.  This is all designed to give feedback to the user visually on their actions.
 
+    * The form is designed to make the name and email sections, required and will give feedback to the user if this is not completed correctly.  Once the form is submitted the user is taken to a thank-you page were they are informed that they have submitted their details and explained to again how they can unsubscribe if needed.  
+
+    * The thank-you page design is kept consistant in sye and image to the rest of the site and the same header, nav and footer are present.  This allows the user to navigate back to any section of the wesite with ease, if they choose.
+
     ![Sign Up Screenshot](assets/images/sign-up-screenshot.png)
 
-    * Originally the form had an input submit button, a method of POST and an action of the Code Institue Form Dump site.  This is the correct format if using a form in the future for a real website, but it was found on testing that it became annoying and difficult for user testing this site as once they submitted thier form they were taken to the Code Institue webpage explaining what they had submitted.  
-    
-        For ease of use on the user for testing it was decided to take out the method and action and replace the input button with an anchor tag linked to a Thank You Page instead.  This page was designed to give feedback to the user on the action they completed.  
+    * 
         
-        The form does take into account that the name and email address are required, however, due to the above change this no longer happens.  In a real webpage scenario, the correct method, action and input functions would be used.
+        
 
 8.  **Contact Us Section**
 
@@ -122,6 +124,14 @@
 ## Testing
 ---
 * Bugs – Fixed & Unfixed
+
+1. Sign Up Section:
+
+Originally the form had an input submit button, a method of POST and an action of the Code Institue Form Dump site.  But it was found on testing that it became annoying and difficult for users as once they submitted their form they were taken to the Code Institue webpage explaining what they had submitted.  
+    
+For ease of use on the user it was decided to take out the method and action and replace the input button with an anchor tag linked to a Thank You Page instead.  This page was designed to give feedback to the user on the action they completed.  However, this then resulted in the name and email elements of the form not showing as required.  
+
+This error was corrected by placing the method of "get" and the action as the "thank-you.html and the input submit button was put back instead of a link. 
 
 * Validator Testing
 
