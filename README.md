@@ -141,6 +141,13 @@
 
     ![CSS Validator Results](assets/images/css-validator-screenshot.png)
 
+3. **Lighthouse** was accessed through Developer Tools in Chrome to check the site for performance, acessibility, best practice and SEO.  The first time this was run, the performance score was 88%.  Lighthouse suggested to change some larger images from jpg to avif, which was done.  However, it seemed that the Chrome extensions that were installed in the testing laptop were also having an effect on the performance score Lighthouse was rendering.  The test was redone incognito window and performance scores rose to 99%.  
+
+    Acessibility is at 100%, so no changes needed.
+
+![Lighthouse Results](assets/images/lighthouse-screenshot.png)
+
+
 
 
 
