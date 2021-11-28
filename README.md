@@ -125,6 +125,11 @@
 
 * Validator Testing
 
+The [W3C](https://validator.w3.org/) site was used to validate the html code.  It returned 2 errors and a warning.  The break points used in the Benefits section of the Learn section were removed and the Main Content Container class selector was changed from a section to a div.  The validator was rerun and came back clear.
+
+![HTML Validator Results](assets/images/html-validator-screenshot.png)
+
+
 ## Deployment
 ---
 
