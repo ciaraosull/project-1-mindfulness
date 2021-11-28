@@ -279,7 +279,7 @@ margin for overlapping with images on larger screens */
   margin: 20px 40px 40px 40px;
   padding: 40px;
   border-radius: 20px;
-  background: url("../images/singing-bowl.jpg") no-repeat center / cover;
+  background: url("../images/singing-bowl.avif") no-repeat center / cover;
 }
 
 .form-text {
