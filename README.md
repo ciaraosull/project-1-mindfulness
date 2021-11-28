@@ -125,9 +125,17 @@
 
 * Validator Testing
 
-The [W3C](https://validator.w3.org/) site was used to validate the html code.  It returned 2 errors and a warning on the index.html page.  The break points used in the Benefits section of the Learn section were removed and the Main Content Container class selector was changed from a section to a div.  The validator was rerun and came back clear.  The W3C html validator also showed a stray end section tag in the thank-you.html page and this was resolved.   
+The [W3C](https://validator.w3.org/) site was used to validate the html code.
+
+    It returned 2 errors and a warning on the index.html page.  The break points used in the Benefits section of the Learn section were removed and the Main Content Container class selector was changed from a section to a div.  The validator was rerun and came back clear.  
+    
+    The W3C html validator also showed a stray end section tag in the thank-you.html page and this was resolved. 
+
+    The W3C validator returned no errors on the 404.html page.
 
 ![HTML Validator Results](assets/images/html-validator-screenshot.png)
+
+
 
 
 ## Deployment
