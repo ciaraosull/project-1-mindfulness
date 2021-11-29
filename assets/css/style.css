@@ -213,6 +213,10 @@ section so it does not sit behind the fixed header */
   list-style: none;
 }
 
+#benefits-text ul li {
+  padding: 10px 0;
+}
+
 /* Styling for the audio controls */
 audio {
   width: 100%;
