@@ -122,8 +122,11 @@
     ![Contact Us Screenshot](assets/images/footer-screenshot.png)
 
 9. **Page Not Found - 404 Page**
+    * A customised 404 page not found was added to the site to support the professionalism design and ensure appropriate link was added back to the main site to guide users who come across this message.
 
-![Page Not Found Screenshot](assets/images/404-screenshot.png)
+    * An image from the website is used for consistancy and the link back to the main website has a line underneath and letter spacing on hover to provide feedback to the user.  Inline css was used within the 404.html page to prevent further errors being shown if the style sheet fails to load from a link.
+
+    ![Page Not Found Screenshot](assets/images/404-screenshot.png)
 
 
 
