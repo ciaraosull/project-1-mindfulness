@@ -121,6 +121,14 @@
 
     ![Contact Us Screenshot](assets/images/footer-screenshot.png)
 
+9. **Page Not Found - 404 Page**
+
+![Page Not Found Screenshot](assets/images/404-screenshot.png)
+
+
+
+
+
 
 ## Languages Used
 ---
