@@ -104,16 +104,23 @@
 
     * The thank-you page design is kept consistant in style and image to the rest of the site and the same header, nav and footer are present.  This allows the user to navigate back to any section of the wesite with ease, if they choose.
 
-![Sign Up Screenshot](assets/images/thank-you-page-screenshot.png)
-    
-
-    * 
-        
-        
+    ![Thank You Page Screenshot](assets/images/thank-you-page-screenshot.png)
 
 8.  **Contact Us Section**
+    * The Contact Us Section is set within the footer.  The background and font colours are kept consistant with the theme of the header.  This section is responsive and flexbox was used in this section, just as in the header, to ensure the section changes from row to column display as screen sizes reduce.
+    
+    * The address is a link to Google Maps to show the location of the organisation.  This link opens for the user in a new tab.  There is also a font awsome icon of a location marker to visually aid the user.
 
-<br>
+    * The address font and icon change colour and the letter spacing increases on hover to give feedback to the user that it is a clickable link and an action can be preformed.
+
+    * The Contact Us Section also contains information on downloading the organisations app.  The Play Store and Apple Store words open in a new tab and take the user to the respective sites to locate the app to download.  There are also font awesome icons for the Play Store and Apple store to visually aid the user.  
+
+    * The Play Store and Apple Store fonts and icon change colour and the letter spacing increases on hover to give feedback to the user that it is a clickable link and an action can be preformed.
+
+    * The Contact Us Section also contains a copyright font awesome icon and the authours name.  The words are linked to the authors Linkin page on a new tab for the user to contact the author if needed.  This copyright section font and icon change colour and the letter spacing increases on hover to give feedback to the user that it is a clickable link and an action can be preformed.
+
+    ![Contact Us Screenshot](assets/images/footer-screenshot.png)
+
 
 ## Languages Used
 ---
