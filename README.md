@@ -128,13 +128,12 @@
 
     ![Page Not Found Screenshot](assets/images/404-screenshot.png)
 
-
-
-
+## Features Left to Implement
 
 
 ## Languages Used
----
+* HTML
+* CSS
 
 ## Frameworks, Libraries and Programmes
 ---
