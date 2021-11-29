@@ -215,7 +215,7 @@ section so it does not sit behind the fixed header */
 
 /* Styling for the audio controls */
 audio {
-  width: 70%;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -226,7 +226,7 @@ margin for overlapping with images on larger screens */
   margin-right: 50px;
 }
 
-/* Explore Button on Landing home page styled */
+/* Title of audio styled to stand out */
 #practice-text span {
   font-style: italic;
   font-weight: bold;
