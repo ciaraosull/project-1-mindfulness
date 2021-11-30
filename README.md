@@ -177,6 +177,10 @@
 
     At the begining when the website was being designed a white overlay was used on the video to brighten it up.  However, as white was the chosen text for the landing page tile and subtitle, even with the dark drop shadow used around the text, it still did not seem very contrasted against the video background.  Other colour fonts were tried but the white seemed to compliment the colour scheme of the rest of the site.  The white video overlay was taken out and the video now contrasts the text on top for reading ascessibility. 
 
+4. **Radio Buttons**
+    The radio buttons on the form turned blue on testing to indicate they had been chosen but as this is a yes or no answer, only one button should turn blue when clicked and turn off when the other choice is clicked.  The issue was the name tag was no matching in the html code.  The was resolved by ensuring both had the name tag as contact.
+
+    The radio buttons were also very close together and when testng on a mobile device it seemed awkward to use.  To rectify this issue a margin left and bottom gave space between the buttons for ease of use.
 
 ### Validator Testing
 
