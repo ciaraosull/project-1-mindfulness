@@ -72,7 +72,7 @@
 
 * Also on smaller screens, the image is set to become a circle as again this seemed more appealing and not as cluttering on smaller screens. 
 
-![Mindfulness - About Us Screenshot](assets/images/about-us-screenshot.png)
+    ![Mindfulness - About Us Screenshot](assets/images/about-us-screenshot.png)
 
 5. **Learn Section**
 
@@ -80,11 +80,11 @@
 
 * Both subsections were designed to compliment the About Us section with minor differences such as the images and a quote in bolder writing.
 
-![Mindfulness - Learn Screenshot](assets/images/learn-screenshot.png)
+    ![Mindfulness - Learn Screenshot](assets/images/learn-screenshot.png)
 
-<br />
+    <br>
 
-![Mindfulness - Benefits Screenshot](assets/images/benefits-screenshot.png)
+    ![Mindfulness - Benefits Screenshot](assets/images/benefits-screenshot.png)
 
 6. **Practice Section**
 
@@ -92,7 +92,7 @@
 
 * This Practice section was designed to compliment the About Us & Learn sections with minor differences such as the images and the audio control.
 
-![Mindfulness - Practice Screenshot](assets/images/practice-screenshot.png)
+    ![Mindfulness - Practice Screenshot](assets/images/practice-screenshot.png)
 
 7.  **Sign Up Section**
 * The Sign Up section contains a form and information explaining to the user that if they would like to recieve a monthly subscription by email for free then they can complete the form.  The option to choose if they would like to sign up to an online mindfulness group iin the future is also given on the form.  The user is also informed how to unsubscibe in the future if the wish to do so.
@@ -157,7 +157,7 @@
 
 * The Page not Found 404.html was also checked by entering in a mistake in the url bar.  Once taken to the 404 page the link there was checked that it took the user back to the main site.
 
-### Issues & Bugs Found
+### Interesting Issues & Bugs Found
 
 1. **Sign Up Section:**
 
@@ -192,7 +192,7 @@
 
     The W3C validator returned no errors on the 404.html page.
 
-![HTML Validator Results](assets/images/html-validator-screenshot.png)
+    ![HTML Validator Results](assets/images/html-validator-screenshot.png)
 
 2. The [W3C](https://validator.w3.org/) site was also used to validate the **CSS** code.
 
@@ -200,18 +200,34 @@
 
     ![CSS Validator Results](assets/images/css-validator-screenshot.png)
 
-3. **Lighthouse** was accessed through Developer Tools in Chrome to check the site for performance, acessibility, best practice and SEO.  The first time this was run, the performance score was 88%.  Lighthouse suggested to change some larger images from jpg to avif, which was done.  However, it seemed that the Chrome extensions that were installed in the testing laptop were also having an effect on the performance score Lighthouse was rendering.  The test was redone incognito window and performance scores rose to 99%.  
+3. **Lighthouse** was accessed through Developer Tools in Chrome to check the site for performance, acessibility, best practice and SEO.  The first time this was run, the performance score was 88%.  Lighthouse suggested to change some larger images from jpg to avif, which was done.  However, it seemed that the **Chrome extensions that were installed in the testing laptop were also having an effect** on the performance score Lighthouse was rendering.  The test was redone **incognito** window and performance scores rose to 99%.  
 
     Acessibility is at 100%, so no changes needed.
 
-![Lighthouse Results](assets/images/lighthouse-screenshot.png)
-
-
-
+    ![Lighthouse Results](assets/images/lighthouse-screenshot.png)
 
 
 ## Deployment
----
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+* In the GitHub repository, navigate to the Settings tab.
+
+* On the left hand side menu, choose Pages.
+
+* From the source section drop-down menu, select the Main branch and then press Save.
+
+* The next page will displlay a notice stating the site is ready to be published. 
+
+* Refresh GitHub and the display will now state the site is published.
+
+The live link is: https://ciaraosull.github.io/project-1-mindfulness/
+
+
+
+
+
+
 
 
 ## Credits 
