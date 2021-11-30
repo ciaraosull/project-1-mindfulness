@@ -1,12 +1,6 @@
 # **Mindfulness**
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Testing](#testing)
-4. [Deployment](#deployment)
-5. [Credits](#credits)
-6. [Acknowledgements](#acknowledgements)
+
 
 ___
 
