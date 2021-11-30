@@ -318,6 +318,11 @@ clicked into the section to start typing */
   background-color: #aa1919;
 }
 
+/* Space out radio buttons for tapping ease on smaller screen */
+.form-text input[type="radio"] {
+    margin: 0 10px 20px 0;
+}
+
 .sign-up-button {
   margin-top: 20px;
   border-radius: 2px;
