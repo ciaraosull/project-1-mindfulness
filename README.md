@@ -248,7 +248,7 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
     
 * The design ideas for the website were inspired by the following websites:
 
-    * 
+    * [Cliff Lyons Hotel](https://cliffatlyons.ie/)
 
 
 ### Media
