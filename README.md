@@ -244,12 +244,24 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 * Other resources used to learn were:
     * [W3Schools](https://www.w3schools.com/)
     * [CSS Tricks](https://css-tricks.com/)
+    * [Stack Overflow](https://stackoverflow.com/)
     
+* The design ideas for the website were inspired by the following websites:
+
+    * 
 
 
 ### Media
 
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+* Images
+
+* Background video
+
+* Audio
+
+
 
 ## Acknowledgements
 
