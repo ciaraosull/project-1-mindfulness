@@ -145,7 +145,7 @@ Peter Morville details the factors that influence a positive UX through his [Use
 
 ## Testing
 
-* All features were checked on laptop, mobile (Samsung Galaxy & iPhone 8).  The site was sent to peers to check from their devices that all features functioned correctly and feedback was positive.
+* All features were checked on laptop, mobile (Samsung Galaxy & iPhone 8).  The site was sent to peers to check from their devices that all features functioned correctly and feedback on responsiveness and functionality was positive across all devices checked such as PC, Laptop, Tablets and Mobiles (Android & IOS).  The website was checked on Chrome, Firefox and Edge.
 
 * Each link in the navagation bar was checked that it related to the section it was suppose to on the page and also that the logo linked back to the home page.
 
