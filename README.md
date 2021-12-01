@@ -226,10 +226,30 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
     ![Lighthouse Results](assets/images/lighthouse-screenshot.png)
 
 
-
 ## Credits
-* Content
-* Media
+### Content
+* The name for the organisation was taken from a famous book written by Ram Das called [Be Here Now](https://en.wikipedia.org/wiki/Be_Here_Now_(book))
+
+* The mindfulness information and the audio were taken from an online module I designed with some of my collegues for our employer [Headway](https://headway.ie/).
+
+* The form section code was taken from part of the [Code Institute](https://codeinstitute.net/ie/) Love Running Project Challenge that I did.
+
+* Some helpful YouTube tutorials I used to help me with coding some of the design ideas were:
+    * [Net Ninja Channel](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
+
+    * [Traversy Media Channel](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
+
+    * [Overlapping Images & Text](https://www.youtube.com/watch?v=RM-r75o3h3Q)
+
+* Other resources used to learn were:
+    * [W3Schools](https://www.w3schools.com/)
+    * [CSS Tricks](https://css-tricks.com/)
+    
+
+
+### Media
+
+* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ## Acknowledgements
 
