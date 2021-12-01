@@ -142,10 +142,25 @@ Peter Morville details the factors that influence a positive UX through his [Use
 
 * A live online group section, could also be another feature of this website.  Here the organisation can list the days and times the users can join any live online sessions and also have access to the recordings if they happen to miss the session.
 
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+* In the GitHub repository, navigate to the Settings tab.
+
+* On the left hand side menu, choose Pages.
+
+* From the source section drop-down menu, select the Main branch and then press Save.
+
+* The next page will displlay a notice stating the site is ready to be published. 
+
+* Refresh GitHub and the display will now state the site is published.
+
+The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 
 ## Testing
 
-* All features were checked on laptop, mobile (Samsung Galaxy & iPhone 8).  The site was sent to peers to check from their devices that all features functioned correctly and feedback on responsiveness and functionality was positive across all devices checked such as PC, Laptop, Tablets and Mobiles (Android & IOS).  The website was checked on Chrome, Firefox and Edge.
+* After deployment all features were checked on laptop, mobile (Samsung Galaxy & iPhone 8).  The site was sent to peers to check from their devices that all features functioned correctly and feedback on responsiveness and functionality was positive across all devices checked such as PC, Laptop, Tablets and Mobiles (Android & IOS).  The website was checked on Chrome, Firefox and Edge.
 
 * Each link in the navagation bar was checked that it related to the section it was suppose to on the page and also that the logo linked back to the home page.
 
@@ -210,22 +225,6 @@ Peter Morville details the factors that influence a positive UX through his [Use
 
     ![Lighthouse Results](assets/images/lighthouse-screenshot.png)
 
-
-## Deployment
-
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-
-* In the GitHub repository, navigate to the Settings tab.
-
-* On the left hand side menu, choose Pages.
-
-* From the source section drop-down menu, select the Main branch and then press Save.
-
-* The next page will displlay a notice stating the site is ready to be published. 
-
-* Refresh GitHub and the display will now state the site is published.
-
-The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 
 
 ## Credits
