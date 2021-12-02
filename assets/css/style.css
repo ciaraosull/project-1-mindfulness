@@ -411,10 +411,7 @@ these are links and can be clicked */
   font-weight: bold;
 }
 
-/* Give some spacing between lines for smaller screens */
-.app-info {
-  padding: 10px 0;
-}
+
 
 .app-info p {
   display: inline-flex;
