@@ -389,7 +389,7 @@ spacing out the information within the footer */
 .contact-us-info p {
   padding-left: 40px;
   /* Give some spacing between lines for smaller screens */
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 /* Styling link within the footer the same for consistancy */
@@ -423,6 +423,7 @@ these are links and can be clicked */
 
 .copyright p {
   font-style: italic;
+  padding-top: 20px;
 }
 
 /* Styling font awesome icons to give space before text */
