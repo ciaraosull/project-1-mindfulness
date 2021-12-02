@@ -273,9 +273,13 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-* Images
-
-* Background video
+* Images were sources from the following:
+    * [Pixabay](https://pixabay.com)
+    * [Pexels](https://www.pexels.com)
+    * [Free Images](https://www.freeimages.com)
+    
+* Background video was taken from here:
+    * [YouTube Seashells Video](https://www.youtube.com/watch?v=5r2pQtysUDk)
 
 * Audio
 
