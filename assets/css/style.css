@@ -357,6 +357,22 @@ footer {
   background: #424952;
 }
 
+/* Styling for flexbox sticky footer */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.thank-you-container {
+  flex: 1 0 auto;
+}
+.thank-you-footer {
+  flex-shrink: 0;
+}
+
 /* Using flexbox for responsiveness and 
 spacing out the information within the footer */
 .contact-us-container {
@@ -364,11 +380,6 @@ spacing out the information within the footer */
   color: #fafafa;
   display: flex;
   justify-content: space-between;
-}
-
-.contact-us-info {
-  flex: 35%;
-  padding: 20px;
 }
 
 .contact-us-info p {
@@ -394,7 +405,6 @@ these are links and can be clicked */
 }
 
 .app-info {
-  flex: 35%;
   padding: 20px;
 }
 
@@ -404,13 +414,11 @@ these are links and can be clicked */
 }
 
 .copyright {
-  flex: 30%;
   align-self: flex-end;
 }
 
 .copyright p {
   font-style: italic;
-  padding: 0 0 20px 30px;
 }
 
 /* Styling font awesome icons to give space before text */
