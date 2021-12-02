@@ -273,7 +273,7 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-* Images were sources from the following:
+* Images were sourced from the following:
     * [Pixabay](https://pixabay.com)
     * [Pexels](https://www.pexels.com)
     * [Free Images](https://www.freeimages.com)
@@ -281,7 +281,7 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 * Background video was taken from here:
     * [YouTube Seashells Video](https://www.youtube.com/watch?v=5r2pQtysUDk)
 
-* The audio recording was kindly shared with by a mindfulness teacher who ran live sessions for NCAD students during lockdown of 2020.  The audio can be accessed by all here on the [NCAD Website](https://www.ncad.ie/about/covid-19-coronavirus-resources/wellbeing-bulletin-1).
+* The audio recording was kindly shared by the mindfulness teacher Caroline who ran live sessions for NCAD students during lockdown of 2020.  The audio can be accessed by all here on the [NCAD Website](https://www.ncad.ie/about/covid-19-coronavirus-resources/wellbeing-bulletin-1).
 
 ## Acknowledgements
 
