@@ -9,10 +9,21 @@
   font-family: "EB Garamond", serif;
 }
 
+/* Styling for flexbox sticky footer on thank-you page */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Styling for the Whole Header Section */
 header {
   /* Using flexbox for responsive design */
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
@@ -22,7 +33,7 @@ header {
   position: fixed;
   /* Using z-index to ensure header is in front 
   of the other sections as they scroll passed */
-  z-index: 99; 
+  z-index: 99;
 }
 
 /* The logos link styled */
@@ -320,7 +331,7 @@ clicked into the section to start typing */
 
 /* Space out radio buttons for tapping ease on smaller screen */
 .form-text input[type="radio"] {
-    margin: 0 10px 20px 0;
+  margin: 0 10px 20px 0;
 }
 
 .sign-up-button {
@@ -357,18 +368,11 @@ footer {
   background: #424952;
 }
 
-/* Styling for flexbox sticky footer */
-html, body {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
+/* Styling for flexbox sticky footer on thank-you page */
 .thank-you-container {
   flex: 1 0 auto;
 }
+
 .thank-you-footer {
   flex-shrink: 0;
 }
@@ -382,8 +386,11 @@ spacing out the information within the footer */
   justify-content: space-between;
 }
 
+
 .contact-us-info p {
   padding-left: 40px;
+  /* Give some spacing between lines for smaller screens */
+  padding-bottom: 10px;
 }
 
 /* Styling link within the footer the same for consistancy */
@@ -404,8 +411,9 @@ these are links and can be clicked */
   font-weight: bold;
 }
 
+/* Give some spacing between lines for smaller screens */
 .app-info {
-  padding: 20px;
+  padding: 10px 0;
 }
 
 .app-info p {
