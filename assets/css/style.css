@@ -291,7 +291,7 @@ margin for overlapping with images on larger screens */
 /* Form and section on thank you page styled similarly for consistancy to user */
 .form-container,
 .thank-you-container {
-  margin: 20px 40px 40px 40px;
+  margin: 10px 40px;
   padding: 40px;
   border-radius: 20px;
   background: url("../images/singing-bowl.avif") no-repeat center / cover;
@@ -385,7 +385,6 @@ spacing out the information within the footer */
   justify-content: space-between;
 }
 
-
 .contact-us-info p {
   padding-left: 40px;
   /* Give some spacing between lines for smaller screens */
@@ -410,8 +409,6 @@ these are links and can be clicked */
   font-weight: bold;
 }
 
-
-
 .app-info p {
   display: inline-flex;
   padding-left: 40px;
@@ -431,9 +428,7 @@ i {
   padding-right: 10px;
 }
 
-
 @media (max-width: 800px) {
-
   /* Using flexbox column for responsiveness 
   and less padding for smaller screens on heading */
   header,
