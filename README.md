@@ -281,11 +281,11 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 * Background video was taken from here:
     * [YouTube Seashells Video](https://www.youtube.com/watch?v=5r2pQtysUDk)
 
-* Audio
-
-
+* The audio recording was kindly shared with by a mindfulness teacher who ran live sessions for NCAD students during lockdown of 2020.  The audio can be accessed by all here on the [NCAD Website](https://www.ncad.ie/about/covid-19-coronavirus-resources/wellbeing-bulletin-1).
 
 ## Acknowledgements
+
+This site was made possible due to the help, advice and support of my Code Institue Tutor Kasia, my Mentor Daisy and all the lovely people on the Code Institue Slack community.
 
 
 
