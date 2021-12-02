@@ -142,22 +142,6 @@ Peter Morville details the factors that influence a positive UX through his [Use
 
 * A live online group section, could also be another feature of this website.  Here the organisation can list the days and times the users can join any live online sessions and also have access to the recordings if they happen to miss the session.
 
-## Deployment
-
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-
-* In the GitHub repository, navigate to the Settings tab.
-
-* On the left hand side menu, choose Pages.
-
-* From the source section drop-down menu, select the Main branch and then press Save.
-
-* The next page will displlay a notice stating the site is ready to be published. 
-
-* Refresh GitHub and the display will now state the site is published.
-
-The live link is: https://ciaraosull.github.io/project-1-mindfulness/
-
 ## Testing
 
 * After deployment all features were checked on laptop, mobile (Samsung Galaxy & iPhone 8).  The site was sent to peers to check from their devices that all features functioned correctly and feedback on responsiveness and functionality was positive across all devices checked such as PC, Laptop, Tablets and Mobiles (Android & IOS).  The website was checked on Chrome, Firefox and Edge.
@@ -197,6 +181,7 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
     At the begining when the website was being designed a white overlay was used on the video to brighten it up.  However, as white was the chosen text for the landing page tile and subtitle, even with the dark drop shadow used around the text, it still did not seem very contrasted against the video background.  Other colour fonts were tried but the white seemed to compliment the colour scheme of the rest of the site.  The white video overlay was taken out and the video now contrasts the text on top for reading ascessibility. 
 
 4. **Radio Buttons**
+
     The radio buttons on the form turned blue on testing to indicate they had been chosen but as this is a yes or no answer, only one button should turn blue when clicked and turn off when the other choice is clicked.  The issue was the name tag was no matching in the html code.  The was resolved by ensuring both had the name tag as contact.
 
     The radio buttons were also very close together and when testng on a mobile device it seemed awkward to use.  To rectify this issue a margin left and bottom gave space between the buttons for ease of use.
@@ -225,6 +210,21 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 
     ![Lighthouse Results](assets/images/lighthouse-screenshot.png)
 
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+* In the GitHub repository, navigate to the Settings tab.
+
+* On the left hand side menu, choose Pages.
+
+* From the source section drop-down menu, select the Main branch and then press Save.
+
+* The next page will displlay a notice stating the site is ready to be published. 
+
+* Refresh GitHub and the display will now state the site is published.
+
+The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 
 ## Credits
 ### Content
@@ -245,10 +245,28 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
     * [W3Schools](https://www.w3schools.com/)
     * [CSS Tricks](https://css-tricks.com/)
     * [Stack Overflow](https://stackoverflow.com/)
-    
-* The design ideas for the website were inspired by the following websites:
+
+
+* The design ideas for a video background was inspired by the following website:
 
     * [Cliff Lyons Hotel](https://cliffatlyons.ie/)
+
+* Some of the other design ideas were inspired by the following websites:
+    * [Circle Images Example 1](assets/images/circle-image-idea.jpg)
+    
+    * [Circle Images Example 2](assets/images/circle-image-idea-two.jpg)
+    
+    * [Overlapping Text & Image Example 1](assets/images/image-text-overlap-idea.jpg)
+    
+    * [Overlapping Text & Image Example 2](assets/images/overlap-image-text-idea.jpg)
+
+* Basic drawings at the beginning gave a draft design that changed over time.  Mobile first and positive user experience being the main factors that influenced the design layout as the website progressed.
+
+    * [Design Drawing 1](assets/images/design-drawing-one.jpg)
+    
+    * [Design Drawing 2](assets/images/design-drawing-two.jpg)
+    
+    * [Design Drawing 3](assets/images/design-drawing-three.jpg)
 
 
 ### Media
