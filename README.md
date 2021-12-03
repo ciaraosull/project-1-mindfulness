@@ -217,6 +217,8 @@ Due to only HTML and CSS Languages being used, with no JavaScript the SignUp For
 
 * The Page not Found 404.html was also checked by entering in a mistake in the url bar.  Once taken to the 404 page the link there was checked that it took the user back to the main site.
 
+* Google Chrome's built in Developer Tool was used to inspect page elements throughout the build and helped debug issues within the HTML code and CSS styles.
+
 ### Interesting Issues & Bugs Found
 
 1. **Sign Up Section:**
@@ -287,6 +289,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * Refresh GitHub and the display will now state the site is published.
 
 The live link is: https://ciaraosull.github.io/project-1-mindfulness/
+
+* Visual Studio (VS) Code was the Integrated Development Environment used to develop this ebsite.
 
 ### Version Control
 * Git was used as the version control software.  Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository where the source code is stored.
