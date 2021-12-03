@@ -504,7 +504,8 @@ i {
     align-self: center;
   }
 
-  .contact-us-info, .app-info {
+  .contact-us-info,
+  .app-info {
     display: flex;
     flex-direction: column;
     align-items: center;
