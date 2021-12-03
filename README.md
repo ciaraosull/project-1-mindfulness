@@ -322,6 +322,10 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 
 This site was made possible due to the help, advice and support of my Code Institue Tutor Kasia, my Mentor Daisy and all the lovely people on the Code Institue Slack community.
 
+## Continued Professional Development
+
+Flexbox was used throughout this site to make it responsive for the user.  However, I would like to understand and be able to implement Grid to observe the differences to have a choice on which or if both are better together moving forward on future projects.
+
 
 
 
