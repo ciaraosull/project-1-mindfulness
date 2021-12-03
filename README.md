@@ -196,6 +196,9 @@ The colour scheme was chosen by using [Coolors](https://coolors.co).  The follow
 
 * A live online group section, could also be another feature of this website.  Here the organisation can list the days and times the users can join any live online sessions and also have access to the recordings if they happen to miss the session.
 
+### Limitations
+Due to only HTML and CSS being used, with no JavaScript the SignUp Form will not store data or sned the user an email.  
+
 ## Testing
 
 * After deployment all features were checked on laptop, mobile (Samsung Galaxy & iPhone 8).  The site was sent to peers to check from their devices that all features functioned correctly and feedback on responsiveness and functionality was positive across all devices checked such as PC, Laptop, Tablets and Mobiles (Android & IOS).  The website was checked on Chrome, Firefox and Edge.
