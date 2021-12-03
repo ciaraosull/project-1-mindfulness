@@ -507,6 +507,11 @@ i {
   .contact-us-info, .app-info {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  .app-info p {
+    padding-left: 0;
   }
 }
 
