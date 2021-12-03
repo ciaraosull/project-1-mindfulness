@@ -501,7 +501,12 @@ i {
 
   /* Move copyright author to left for smaller screens*/
   .copyright {
-    align-self: flex-start;
+    align-self: center;
+  }
+
+  .contact-us-info, .app-info {
+    display: flex;
+    flex-direction: column;
   }
 }
 
