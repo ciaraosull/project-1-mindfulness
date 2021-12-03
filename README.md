@@ -330,7 +330,6 @@ To clone this repository from [GitHub](www.github.com) to a local computer to ma
     * [CSS Tricks](https://css-tricks.com/)
     * [Stack Overflow](https://stackoverflow.com/)
 
-
 ### Media
 
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
