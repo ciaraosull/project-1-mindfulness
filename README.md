@@ -13,7 +13,16 @@ View the live project [Here](https://ciaraosull.github.io/project-1-mindfulness/
 ## User Experience (UX)
 
 ### User Stories
-A user wants to:
+
+Every adult at some point may feel under stress or pressure or rushed during their day.  Perhaps some anxious feelings and worries can arise for some at certain moments in their life.  
+
+Users of this site can have access to Mindfulness learning to help them understand how it works and it's benefits to their life.  The can try out for free a sample session online, on their phone or even on their PC at lunch in work.  
+
+The site also opens up the option to download the app.  This supports the users to have convienient access to mindfulness practice wherever they are at whatever time they wish.
+
+The option to sign up to recieve monthly learning and practice sessions will benefit the user to have access to further resources and support.    
+
+A user also wants to:
 * Easily understand the main purpose of the site
 * Be able to navigate easily throughout the site
 * Understand the information presented in clear, jargon free language
