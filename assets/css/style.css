@@ -359,7 +359,6 @@ about to click on submit button */
   position: unset;
 }
 
-
 /* Keeping footer colour consistant with header */
 footer {
   width: 100%;
@@ -429,6 +428,7 @@ i {
 }
 
 @media (max-width: 800px) {
+
   /* Using flexbox column for responsiveness 
   and less padding for smaller screens on heading */
   header,
