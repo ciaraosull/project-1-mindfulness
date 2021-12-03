@@ -26,11 +26,11 @@ A user wants to:
 Peter Morville details the factors that influence a positive UX through his [User Experience Honeycomb](http://semanticstudios.com/user_experience_design).  Also, according to the [Neilsen Norman Group](https://www.nngroup.com/articles/ten-usability-heuristics/) there are 10 general principles for interaction design.
 
 ### User Experience in this Site
-This website takes both of these key reseach pieces and the users stories mentioned abouve into consideration to create a positive UX.  The users experience is discussed in more detail below with examples in the Design & Features Section.
+This website takes both of these key reseach pieces and the users stories mentioned above into consideration to create a positive UX.  The users experience is discussed in more detail below with examples in the Design & Features Sections.
 
 ## Design
 
-The design of the site was inspired by researching other websites to discover what aspects of their design made a positive user experience.  The sites were accessed across serval devices to understand what layout and features worked best on each device and had a positive impact on the user.
+The design of the site was inspired by researching other websites to discover what aspects of their design made a positive user experience.  The sites were accessed across several devices to understand what layout and features worked best on each device and had a positive impact on the user.
 
 ### Design Research
 
@@ -58,15 +58,13 @@ The design of the site was inspired by researching other websites to discover wh
     * [Design Drawing 3](assets/images/design-drawing-three.jpg)
 
 ### Fonts
-The fonts used are Irish Grover for the Logo and EB Garamond for the rest of the site.  A separate font was used for the logo to make it visually stand out to the user and create a consistant recognisable logo.  EB Garamond was chosen for it clear lettering and spacing for reading accesibility for the user.  Fonts were imported from [Google Fonts](https://fonts.google.com/).  The backup font of Serif was used incase the fonts do not load for the user.
+The fonts used are Irish Grover for the Logo and EB Garamond for the rest of the site.  A separate font was used for the logo to make it visually stand out to the user and create a consistant recognisable logo.  EB Garamond was chosen for its clear lettering and spacing for reading accesibility for the user.  Fonts were imported from [Google Fonts](https://fonts.google.com/).  The backup font of Serif was used incase the fonts do not load for the user.
 
 ### Colour Scheme
 
 The colour scheme was chosen by using [Coolors](https://coolors.co).  The following palette was chosen for using on the fonts throughout the site due to high contrast for user reading accessibility:
 
 ![Favicon Screenshot](assets/images/colour-palette.png)
-
-
 
 
 ## Features
