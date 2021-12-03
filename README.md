@@ -296,7 +296,19 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 * Git was used as the version control software.  Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository where the source code is stored.
 
 ### Cloning
+To clone this repository from [GitHub](www.github.com) to a local computer to make it easier to fix merge conflicts, add or remove files, and push larger commits or contribute use the following steps:
 
+1. On [GitHub](www.github.com), navigate to the main page of the repository.  [Click Here for Reposititory Link](https://github.com/ciaraosull/project-1-mindfulness)
+
+2. Above the list of files, click Code.
+
+3. click Use GitHub CLI, then the copy icon.
+
+4. Open Git Bash and change the current working directory to the location where you want the cloned directory.
+
+5. Type git clone, and then paste the URL that was copied from step 3 above.
+
+6. Press Enter to create the local clone.
 
 ## Credits
 ### Content
