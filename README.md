@@ -252,6 +252,8 @@ Due to only HTML and CSS Languages being used, with no JavaScript the SignUp For
 
 ### Validator Testing
 
+Before testing, code was checked and formated by right clicking and choosing - format document.
+
 1. The [W3C](https://validator.w3.org/) site was used to validate the **HTML** code.
 
     It returned 2 errors and a warning on the index.html page.  The break points used in the Benefits section of the Learn section were removed and the Main Content Container class selector was changed from a section to a div.  The validator was rerun and came back clear.  
