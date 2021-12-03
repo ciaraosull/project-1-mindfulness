@@ -335,7 +335,7 @@ To clone this repository from [GitHub](www.github.com) to a local computer to ma
 
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-* Culturally appropriate images were chosen to tie in with the origins of mindfulness and they were sourced from the following:
+* Culturally appropriate images were chosen to tie in with the origins of mindfulness.  Microsoft Photos was used to edit, crop, filter and flip and save the images if needed:
     * [Pixabay](https://pixabay.com)
     * [Pexels](https://www.pexels.com)
     * [Free Images](https://www.freeimages.com)
