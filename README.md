@@ -11,7 +11,22 @@ View the live project [Here](https://ciaraosull.github.io/project-1-mindfulness/
 <br />
 
 ## User Experience (UX)
-Peter Morville details the factors that influence a positive UX through his [User Experience Honeycomb]( http://semanticstudios.com/user_experience_design).  Also, according to the [Neilsen Norman Group]( https://www.nngroup.com/articles/ten-usability-heuristics/) there are 10 general principles for interaction design.  This website takes both of these key aspects into consideration to create a positive UX.  The users experience is discussed in more detail below with examples in the Features Section.
+
+### User Stories
+A user wants to:
+* Easily understand the main purpose of the site
+* Be able to navigate easily throughout the site
+* Understand the information presented in clear, jargon free language
+* Use the practice audio session and have control over when it plays and pausing
+* Be able to contact the organisation or the author of the site
+* Be able to find the link to download the organisations app
+* View the website clearly across different devices
+
+### User Experience Research
+Peter Morville details the factors that influence a positive UX through his [User Experience Honeycomb]( http://semanticstudios.com/user_experience_design).  Also, according to the [Neilsen Norman Group]( https://www.nngroup.com/articles/ten-usability-heuristics/) there are 10 general principles for interaction design.  
+
+### User Experience in this Site
+This website takes both of these key reseach pieces and the users stories mentioned abouve into consideration to create a positive UX.  The users experience is discussed in more detail below with examples in the Design & Features Section.
 
 ## Features
 1. **Favicon**
