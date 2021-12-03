@@ -243,6 +243,11 @@ Due to only HTML and CSS Languages being used, with no JavaScript the SignUp For
 
     The radio buttons were also very close together and when testng on a mobile device it seemed awkward to use.  To rectify this issue a margin left and bottom gave space between the buttons for ease of use.
 
+    **Thank You Page Footer**
+
+    On the last run through with my mentor it was discovered that the footer was not responive.  Testing on my mentors widescreen, the footer on the Thank You Page did not stick to the bottom.  To fix this issue flexbox was used to make a sticky footer which pushed the footer to the end of the site no matter how little content was displayed on the screen or how wide the screen was.  Paddings and margins were adjusted to reading accessibility for the user across devices.
+
+
 ### Validator Testing
 
 1. The [W3C](https://validator.w3.org/) site was used to validate the **HTML** code.
