@@ -498,6 +498,11 @@ i {
   .form-container {
     padding: 10px;
   }
+
+  /* Move copyright author to left for smaller screens*/
+  .copyright {
+    align-self: flex-start;
+  }
 }
 
 /* Adjust height of the content area so not visible on landing page on larger screens */
