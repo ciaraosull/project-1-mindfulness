@@ -288,6 +288,12 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 
+### Version Control
+* Git was used as the version control software.  Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository where the source code is stored.
+
+### Cloning
+
+
 ## Credits
 ### Content
 * The name for the organisation was taken from a famous book written by Ram Das called [Be Here Now](https://en.wikipedia.org/wiki/Be_Here_Now_(book))
