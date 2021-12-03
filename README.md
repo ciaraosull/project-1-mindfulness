@@ -197,7 +197,7 @@ The colour scheme was chosen by using [Coolors](https://coolors.co).  The follow
 * A live online group section, could also be another feature of this website.  Here the organisation can list the days and times the users can join any live online sessions and also have access to the recordings if they happen to miss the session.
 
 ### Limitations
-Due to only HTML and CSS being used, with no JavaScript the SignUp Form will not store data or sned the user an email.  
+Due to only HTML and CSS Languages being used, with no JavaScript the SignUp Form will not store data or send the user an email.  
 
 ## Testing
 
@@ -308,7 +308,7 @@ The live link is: https://ciaraosull.github.io/project-1-mindfulness/
 
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-* Images were sourced from the following:
+* Culturally appropriate images were chosen to tie in with the origins of mindfulness and they were sourced from the following:
     * [Pixabay](https://pixabay.com)
     * [Pexels](https://www.pexels.com)
     * [Free Images](https://www.freeimages.com)
