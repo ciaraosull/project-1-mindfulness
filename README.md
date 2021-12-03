@@ -122,7 +122,7 @@ The colour scheme was chosen by using [Coolors](https://coolors.co).  The follow
 
 * It also gives the user a brief summary of what this website is about and directs them to scroll or use the navigation bar for the rest of the content on the site.
 
-* The background colour used was the dark gray to keep consistancy throughout the site with the header and footer.  The font is whote for contrast and again consistancy with the rest of the site.
+* The background colour used was the dark gray to keep consistancy throughout the site with the header and footer.  The font is white for contrast and again consistancy with the rest of the site.
 
 * The text and the image are over lapped slightly for visual appeal and uniqness to taxt and image side-by-side.
 
@@ -211,13 +211,15 @@ Due to only HTML and CSS Languages being used, with no JavaScript the SignUp For
 
 * The form was checked that name and email were required, that the radio buttons yes and no functioned and that the submit button took the user to the thank you page.
 
-* Each link in the footer for the COntact Us Section was checked that it open the correct link and in a separate tab.
+* Each link in the footer for the Contact Us Section was checked that it open the correct link and in a separate tab.
 
-* The Thank you page header and footer was also checked.  The header links took the user back to the corresponding sections of the main page and the footer links took the user to the corresponding external links opening in a new tab.
+* The Thank You page header and footer was also checked.  The header links took the user back to the corresponding sections of the main page and the footer links took the user to the corresponding external links opening in a new tab.
 
 * The Page not Found 404.html was also checked by entering in a mistake in the url bar.  Once taken to the 404 page the link there was checked that it took the user back to the main site.
 
 * Google Chrome's built in Developer Tool was used to inspect page elements throughout the build and helped debug issues within the HTML code and CSS styles.
+
+* The README.md was proof-read and all links were checked before final submission.
 
 ### Interesting Issues & Bugs Found
 
@@ -249,6 +251,17 @@ Due to only HTML and CSS Languages being used, with no JavaScript the SignUp For
 
     On the last run through with my mentor it was discovered that the footer was not responive.  Testing on my mentors widescreen, the footer on the Thank You Page did not stick to the bottom.  To fix this issue flexbox was used to make a sticky footer which pushed the footer to the end of the site no matter how little content was displayed on the screen or how wide the screen was.  Paddings and margins were adjusted to reading accessibility for the user across devices.
 
+6. **Landscape View**
+
+    An issue arose towards the end of the build with landscape view in mobile.  The footer was not responsive and the title and subtitle text on the landing page was pushed up under the header.
+
+    ![Landscape Bug](assets/images/landscape-bug.jpg)
+
+    To rectify this issue, flex box was used on the footer to center the text on smaller screens and some margins adjusted slightly.  For the title text the fixed width was removed and the top-margin increased slightly.
+
+    ![Landscape Bug Fix](assets/images/landscape-bug-fix.jpg)
+
+    ![Landscape Bug Fix Footer](assets/images/landscape-bug-fix-footer.jpg)
 
 ### Validator Testing
 
@@ -352,7 +365,7 @@ This site was made possible due to the help, advice and support of my Code Insti
 
 ## Continued Professional Development
 
-Flexbox was used throughout this site to make it responsive for the user.  However, I would like to understand and be able to implement Grid to observe the differences to have a choice on which or if both are better together moving forward on future projects.
+Flexbox was used throughout this site to make it responsive for the user.  However, I would like to understand and be able to implement Grid to observe the differences to have a choice on which or if both are better together moving forward on future projects.  Also, Balsamiq Wireframes was discovered after the design was completed.  For future projects I intend to use Wireframes instead of sketching out the design for a more professional feel to the project.
 
 
 
